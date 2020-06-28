@@ -45,7 +45,7 @@ export default function HeaderLinks(props) {
               className={classes.dropdownLink}
             >
               DAI1MONTH
-            </a>
+            </a>,
 			<a
               href="https://nescience.io"
               target="_blank"
