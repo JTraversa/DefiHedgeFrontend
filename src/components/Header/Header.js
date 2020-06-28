@@ -60,7 +60,7 @@ export default function Header(props) {
     [classes.absolute]: absolute,
     [classes.fixed]: fixed
   });
-  const brandComponent = <Button className={classes.title}><img src={brand} /></Button>;
+  const brandComponent = <Button className={classes.title}><img src={ require('./assets/img/defi.png') } width="200px" height:"128px"/></Button>;
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>
