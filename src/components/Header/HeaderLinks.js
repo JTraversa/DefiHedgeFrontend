@@ -46,17 +46,24 @@ export default function HeaderLinks(props) {
             >
               DAI1MONTH
             </a>
+			<a
+              href="https://nescience.io"
+              target="_blank"
+              className={classes.dropdownLink}
+            >
+              USDC1MONTH
+            </a>
           ]}
         />
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/material-kit-react?ref=mkr-navbar"
+          href="https://nescience.io/wp-content/uploads/2020/06/DefiHedge-Whitepaper-1.pdf"
           color="transparent"
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Download
+           Whitepaper
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -72,7 +79,7 @@ export default function HeaderLinks(props) {
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/CreativeTim?ref=creativetim"
+            href="https://nescience.io"
             target="_blank"
             color="transparent"
             className={classes.navLink}
@@ -90,7 +97,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/CreativeTim?ref=creativetim"
+            href="https://nescience.io"
             target="_blank"
             className={classes.navLink}
           >
@@ -107,7 +114,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+            href="https://nescience.io"
             target="_blank"
             className={classes.navLink}
           >
