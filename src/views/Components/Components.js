@@ -38,7 +38,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand="DefiHedge"
+        brand={require("assets/img/defi.jpg")}
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
