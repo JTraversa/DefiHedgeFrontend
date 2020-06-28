@@ -29,7 +29,7 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
-          buttonText="Markets"
+          buttonText="Components"
           buttonProps={{
             className: classes.navLink,
             color: "transparent"
@@ -37,42 +37,14 @@ export default function HeaderLinks(props) {
           buttonIcon={Apps}
           dropdownList={[
             <Link to="/" className={classes.dropdownLink}>
-              ETH1MONTH
+              All components
             </Link>,
             <a
-              href="/"
+              href="https://creativetimofficial.github.io/material-kit-react/#/documentation?ref=mkr-navbar"
               target="_blank"
               className={classes.dropdownLink}
             >
-              ETH6MONTH
-            </a>
-			<a
-              href="/"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              USDC1MONTH
-            </a>
-			<a
-              href="/"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              USDC6MONTH
-            </a>
-			<a
-              href="/"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              DAI1MONTH
-            </a>
-			<a
-              href="/"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              DAI6MONTH
+              Documentation
             </a>
           ]}
         />
@@ -84,7 +56,7 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Whitepaper
+          <CloudDownload className={classes.icons} /> Download
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
