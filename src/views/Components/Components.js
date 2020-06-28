@@ -29,7 +29,7 @@ import SectionExamples from "./Sections/SectionExamples.js";
 import SectionDownload from "./Sections/SectionDownload.js";
 
 import styles from "assets/jss/material-kit-react/views/components.js";
-
+import image1 from "assets/img/bg3.jpg";
 const useStyles = makeStyles(styles);
 
 export default function Components(props) {
@@ -38,7 +38,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand={require("assets/img/defi.jpg")}
+        brand=image1
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
