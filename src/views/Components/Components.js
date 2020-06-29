@@ -38,7 +38,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand={image1}
+        brand=""
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
@@ -53,7 +53,7 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>DefiHedge</h1>
+                <h1 className={classes.title}>{image1}</h1>
                 <h3 className={classes.subtitle}>
 					{"A decentralized marketplace for interest-rate swaps & fixed rate lending"}
                 </h3>
