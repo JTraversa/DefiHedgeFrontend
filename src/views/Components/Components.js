@@ -58,7 +58,7 @@ export default function Components(props) {
 					{"A decentralized marketplace for interest-rate swaps & fixed rate lending"}
                 </h3>
 				<h4 className={classes.subtitle}>
-					{"Coming Soon, Q3 2020"}
+					{"Coming Q3 2020"}
                 </h4>
               </div>
             </GridItem>
