@@ -53,7 +53,7 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>{image1}</h1>
+                <h1 className={classes.title}><img src={image1} width="225px" height="158px" /></h1>
                 <h3 className={classes.subtitle}>
 					{"A decentralized marketplace for interest-rate swaps & fixed rate lending"}
                 </h3>
