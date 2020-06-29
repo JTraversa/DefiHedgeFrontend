@@ -48,12 +48,12 @@ export default function Components(props) {
         }}
         {...rest}
       />
-      <Parallax image={require("assets/img/bg4.jpg")}>
+      <Parallax image={require("assets/img/bg7.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}><img src={image1} width="225px" height="158px" /></h1>
+                <h1 className={classes.title}><img src={image1} width="400px" height="281px" /></h1>
                 <h3 className={classes.subtitle}>
 					{"A decentralized marketplace for interest-rate swaps & fixed rate lending"}
                 </h3>
