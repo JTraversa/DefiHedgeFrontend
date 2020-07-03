@@ -10,8 +10,7 @@ const parallaxStyle = {
     padding: "0",
     border: "0",
     display: "flex",
-    alignItems: "center",
-	filter: "brightness(0.01)"
+    alignItems: "center"
 		
   },
   filter: {
@@ -31,7 +30,8 @@ const parallaxStyle = {
   },
   small: {
     height: "380px"
-  }
+  },
+  filter: "brightness(0.5)"
 };
 
 export default parallaxStyle;
