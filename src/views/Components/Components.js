@@ -48,7 +48,7 @@ export default function Components(props) {
         }}
         {...rest}
       />
-      <Parallax image={require("assets/img/3416667.svg")}>
+      <Parallax image={require("assets/img/darksvg.svg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
