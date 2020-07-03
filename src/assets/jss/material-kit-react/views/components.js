@@ -10,7 +10,7 @@ const componentsStyle = {
     fontSize: "4.2rem",
     fontWeight: "600",
     display: "inline-block",
-    position: "relative"
+    position: "relative",
 	transform: `translate(100px, 200px)`
   },
   subtitle: {
