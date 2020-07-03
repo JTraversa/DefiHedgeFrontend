@@ -11,7 +11,7 @@ const componentsStyle = {
     fontWeight: "600",
     display: "inline-block",
     position: "relative",
-	transform: `translate(125px, -200px)`
+	transform: `translate(150px, -50px)`
   },
   subtitle: {
     fontSize: "1.313rem",
