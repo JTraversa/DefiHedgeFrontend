@@ -161,7 +161,7 @@ const title = {
   textDecoration: "none",
   fontWeight: "700",
   fontFamily: `"Roboto Slab", "Times New Roman", serif`,
-  transform: `translate(100px, 200px)`
+  transform: `translate(100px, 500px)`
   
 };
 
