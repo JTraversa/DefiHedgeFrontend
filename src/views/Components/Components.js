@@ -55,7 +55,7 @@ export default function Components(props) {
               <div className={classes.brand}>
                 <h1 className={classes.title}><img src={image1} width="400px" height="281px" /></h1>
                 <h3 className={classes.subtitle}>
-					{"The decentralized marketplace for fixed-rate lending & interest-rate derivatives"}
+					{"The decentralized protocol for fixed-rate lending & interest-rate derivatives"}
                 </h3>
 				<h4 className={classes.subtitle}>
 					{"Coming Q3 2020"}
@@ -65,6 +65,10 @@ export default function Components(props) {
           </GridContainer>
         </div>
       </Parallax>
+	   <div className={classNames(classes.main, classes.mainRaised)}>
+        <SectionJavascript />
+        <SectionCarousel />
+      </div>
       <Footer />
     </div>
   );
