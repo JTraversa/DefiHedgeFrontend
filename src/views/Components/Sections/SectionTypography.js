@@ -28,14 +28,14 @@ export default function SectionTypography() {
     <div className={classes.section}>
       <div className={classes.container}>
         <div className={classes.space50} />
-        <div id="images">
+        <div>
           <div className={classes.title}>
-            <h2>Images</h2>
+            <h2></h2>
           </div>
           <br />
           <GridContainer>
             <GridItem xs={12} sm={2}>
-              <h4>Rounded Image</h4>
+              <h4>Placeholder</h4>
               <img
                 src={image}
                 alt="..."
@@ -43,7 +43,7 @@ export default function SectionTypography() {
               />
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
-              <h4>Circle Image</h4>
+              <h4>Placeholder</h4>
               <img
                 src={image}
                 alt="..."
@@ -51,7 +51,7 @@ export default function SectionTypography() {
               />
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
-              <h4>Rounded Raised</h4>
+              <h4>Placeholder</h4>
               <img
                 src={image}
                 alt="..."
@@ -65,7 +65,7 @@ export default function SectionTypography() {
               />
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
-              <h4>Circle Raised</h4>
+              <h4>Placeholder</h4>
               <img
                 src={image}
                 alt="..."
