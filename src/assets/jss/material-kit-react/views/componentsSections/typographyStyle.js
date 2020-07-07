@@ -13,9 +13,10 @@ const typographyStyle = {
   },
   title: {
     ...title,
-    marginTop: "30px",
+    marginTop: "60px",
     minHeight: "32px",
-    textDecoration: "none"
+    textDecoration: "none",
+	position: "relative"
   },
   typo: {
     paddingLeft: "25%",
