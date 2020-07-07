@@ -30,7 +30,60 @@ export default function SectionTypography() {
         <div className={classes.space50} />
         <div>
           <div className={classes.title}>
-            <h2></h2>
+            <h2>Protect yourself from volatility</h2>
+          </div>
+          <br />
+          <GridContainer>
+            <GridItem xs={12} sm={2}>
+              <h4>Placeholder</h4>
+              <img
+                src={image}
+                alt="..."
+                className={classes.imgRounded + " " + classes.imgFluid}
+              />
+            </GridItem>
+            <GridItem xs={12} sm={2} className={classes.marginLeft}>
+              <h4>Placeholder</h4>
+              <img
+                src={image}
+                alt="..."
+                className={classes.imgRoundedCircle + " " + classes.imgFluid}
+              />
+            </GridItem>
+            <GridItem xs={12} sm={2} className={classes.marginLeft}>
+              <h4>Placeholder</h4>
+              <img
+                src={image}
+                alt="..."
+                className={
+                  classes.imgRaised +
+                  " " +
+                  classes.imgRounded +
+                  " " +
+                  classes.imgFluid
+                }
+              />
+            </GridItem>
+            <GridItem xs={12} sm={2} className={classes.marginLeft}>
+              <h4>Placeholder</h4>
+              <img
+                src={image}
+                alt="..."
+                className={
+                  classes.imgRaised +
+                  " " +
+                  classes.imgRoundedCircle +
+                  " " +
+                  classes.imgFluid
+                }
+              />
+            </GridItem>
+          </GridContainer>
+          <GridContainer />
+        </div>
+		<div>
+          <div className={classes.title}>
+            <h2>Leverage your capital & profit </h2>
           </div>
           <br />
           <GridContainer>
