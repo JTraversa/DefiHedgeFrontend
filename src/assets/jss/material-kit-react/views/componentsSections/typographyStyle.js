@@ -41,10 +41,11 @@ const typographyStyle = {
     marginLeft: "auto !important"
   },
   comment: {
+	marginLeft: "20px",
 	marginTop: "60px",
     textDecoration: "none",
 	position: "relative"
-  }
+  },
   
   ...imagesStyles
 };
