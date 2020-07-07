@@ -81,7 +81,7 @@ export default function SectionTypography() {
         </div>
 		<div>
           <div className={classes.title}>
-            <h2>{Leverage your capital & increase your exposure to high rates}</h2>
+            <h2>Leverage your capital & increase your exposure to high rates</h2>
           </div>
           <br />
           <GridContainer>
