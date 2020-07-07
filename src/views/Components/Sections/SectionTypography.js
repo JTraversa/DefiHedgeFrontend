@@ -39,7 +39,13 @@ export default function SectionTypography() {
               <img
                 src={image}
                 alt="..."
-                className={classes.imgRounded + " " + classes.imgFluid}
+                className={
+					                  classes.imgRaised +
+                  " " +
+                  classes.imgRoundedCircle +
+                  " " +
+                  classes.imgFluid
+				  }
               />
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
@@ -47,7 +53,13 @@ export default function SectionTypography() {
               <img
                 src={image}
                 alt="..."
-                className={classes.imgRoundedCircle + " " + classes.imgFluid}
+                className={                 
+				  classes.imgRaised +
+                  " " +
+                  classes.imgRoundedCircle +
+                  " " +
+                  classes.imgFluid
+				  }
               />
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
@@ -58,7 +70,7 @@ export default function SectionTypography() {
                 className={
                   classes.imgRaised +
                   " " +
-                  classes.imgRounded +
+                  classes.imgRoundedCircle +
                   " " +
                   classes.imgFluid
                 }
@@ -92,7 +104,13 @@ export default function SectionTypography() {
               <img
                 src={image}
                 alt="..."
-                className={classes.imgRounded + " " + classes.imgFluid}
+                className={                  
+				  classes.imgRaised +
+                  " " +
+                  classes.imgRoundedCircle +
+                  " " +
+                  classes.imgFluid
+				  }
               />
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
@@ -100,7 +118,14 @@ export default function SectionTypography() {
               <img
                 src={image}
                 alt="..."
-                className={classes.imgRoundedCircle + " " + classes.imgFluid}
+                className={
+				  classes.imgRaised +
+                  " " +
+                  classes.imgRoundedCircle +
+                  " " +
+                  classes.imgFluid
+				  
+				}
               />
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
@@ -111,7 +136,7 @@ export default function SectionTypography() {
                 className={
                   classes.imgRaised +
                   " " +
-                  classes.imgRounded +
+                  classes.imgRoundedCircle +
                   " " +
                   classes.imgFluid
                 }
