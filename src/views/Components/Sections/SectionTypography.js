@@ -35,7 +35,7 @@ export default function SectionTypography() {
           <br />
           <GridContainer>
             <GridItem xs={12} sm={2}>
-              <h4>Placeholder</h4>
+              <div className={classes.comment}>Placeholder</div>
               <img
                 src={image}
                 alt="..."
@@ -49,7 +49,7 @@ export default function SectionTypography() {
               />
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
-              <h4>Placeholder</h4>
+              <div className={classes.comment}>Placeholder</div>
               <img
                 src={image}
                 alt="..."
@@ -63,7 +63,7 @@ export default function SectionTypography() {
               />
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
-              <h4>Placeholder</h4>
+              <div className={classes.comment}>Placeholder</div>
               <img
                 src={image}
                 alt="..."
@@ -86,7 +86,7 @@ export default function SectionTypography() {
           <br />
           <GridContainer>
             <GridItem xs={12} sm={2}>
-              <h4>Placeholder</h4>
+              <div className={classes.comment}>Placeholder</div>
               <img
                 src={image}
                 alt="..."
@@ -100,7 +100,7 @@ export default function SectionTypography() {
               />
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
-              <h4>Placeholder</h4>
+              <div className={classes.comment}>Placeholder</div>
               <img
                 src={image}
                 alt="..."
@@ -115,7 +115,7 @@ export default function SectionTypography() {
               />
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
-              <h4>Placeholder</h4>
+              <div className={classes.comment}>Placeholder</div>
               <img
                 src={image}
                 alt="..."
