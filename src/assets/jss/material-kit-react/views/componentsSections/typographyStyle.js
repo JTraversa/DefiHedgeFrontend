@@ -16,7 +16,7 @@ const typographyStyle = {
     minHeight: "32px",
     textDecoration: "none",
 	position: "relative",
-	margin: "0 auto"
+	marginLeft: "-50%"
   },
   typo: {
     paddingLeft: "25%",
