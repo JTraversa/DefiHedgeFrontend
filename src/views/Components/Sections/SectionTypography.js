@@ -76,20 +76,6 @@ export default function SectionTypography() {
                 }
               />
             </GridItem>
-            <GridItem xs={12} sm={2} className={classes.marginLeft}>
-              <h4>Placeholder</h4>
-              <img
-                src={image}
-                alt="..."
-                className={
-                  classes.imgRaised +
-                  " " +
-                  classes.imgRoundedCircle +
-                  " " +
-                  classes.imgFluid
-                }
-              />
-            </GridItem>
           </GridContainer>
           <GridContainer />
         </div>
@@ -126,20 +112,6 @@ export default function SectionTypography() {
                   classes.imgFluid
 				  
 				}
-              />
-            </GridItem>
-            <GridItem xs={12} sm={2} className={classes.marginLeft}>
-              <h4>Placeholder</h4>
-              <img
-                src={image}
-                alt="..."
-                className={
-                  classes.imgRaised +
-                  " " +
-                  classes.imgRoundedCircle +
-                  " " +
-                  classes.imgFluid
-                }
               />
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
