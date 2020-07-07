@@ -12,7 +12,6 @@ const typographyStyle = {
     display: "block"
   },
   title: {
-    ...title,
     marginTop: "60px",
     minHeight: "32px",
     textDecoration: "none",
