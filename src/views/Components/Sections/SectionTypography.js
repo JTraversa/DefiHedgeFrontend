@@ -112,7 +112,7 @@ export default function SectionTypography() {
 				  
 				}
               />
-		      div className={classes.comment}>Placeholder</div>
+		      <div className={classes.comment}>Placeholder</div>
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
