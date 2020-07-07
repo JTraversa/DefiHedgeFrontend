@@ -16,7 +16,8 @@ const typographyStyle = {
     marginTop: "60px",
     minHeight: "32px",
     textDecoration: "none",
-	position: "relative"
+	position: "relative",
+	transform: translate(0, -50%)
   },
   typo: {
     paddingLeft: "25%",
