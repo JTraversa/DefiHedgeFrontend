@@ -49,7 +49,7 @@ const typographyStyle = {
   },
   comment: {
 	marginLeft: "45px",
-	marginTop: "60px",
+	marginTop: "30px",
 	marginBottom: "60px",
     textDecoration: "none",
 	position: "relative"
