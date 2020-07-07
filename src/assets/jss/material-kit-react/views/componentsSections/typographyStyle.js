@@ -41,7 +41,7 @@ const typographyStyle = {
     marginLeft: "auto !important"
   },
   comment: {
-	marginLeft: "50px",
+	marginLeft: "45px",
 	marginTop: "60px",
 	marginBottom: "60px",
     textDecoration: "none",
