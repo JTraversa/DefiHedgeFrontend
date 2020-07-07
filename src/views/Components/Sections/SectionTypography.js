@@ -35,7 +35,6 @@ export default function SectionTypography() {
           <br />
           <GridContainer>
             <GridItem xs={12} sm={2}>
-              <div className={classes.comment}>Placeholder</div>
               <img
                 src={image}
                 alt="..."
@@ -47,9 +46,9 @@ export default function SectionTypography() {
                   classes.imgFluid
 				  }
               />
+			  <div className={classes.comment}>Placeholder</div>
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
-              <div className={classes.comment}>Placeholder</div>
               <img
                 src={image}
                 alt="..."
@@ -61,9 +60,9 @@ export default function SectionTypography() {
                   classes.imgFluid
 				  }
               />
+			  <div className={classes.comment}>Placeholder</div>
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
-              <div className={classes.comment}>Placeholder</div>
               <img
                 src={image}
                 alt="..."
@@ -75,6 +74,7 @@ export default function SectionTypography() {
                   classes.imgFluid
                 }
               />
+			  <div className={classes.comment}>Placeholder</div>
             </GridItem>
           </GridContainer>
           <GridContainer />
@@ -86,7 +86,6 @@ export default function SectionTypography() {
           <br />
           <GridContainer>
             <GridItem xs={12} sm={2}>
-              <div className={classes.comment}>Placeholder</div>
               <img
                 src={image}
                 alt="..."
@@ -98,9 +97,9 @@ export default function SectionTypography() {
                   classes.imgFluid
 				  }
               />
+			  <div className={classes.comment}>Placeholder</div>
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
-              <div className={classes.comment}>Placeholder</div>
               <img
                 src={image}
                 alt="..."
@@ -113,9 +112,9 @@ export default function SectionTypography() {
 				  
 				}
               />
+		      div className={classes.comment}>Placeholder</div>
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
-              <div className={classes.comment}>Placeholder</div>
               <img
                 src={image}
                 alt="..."
@@ -127,6 +126,7 @@ export default function SectionTypography() {
                   classes.imgFluid
                 }
               />
+			  <div className={classes.comment}>Placeholder</div>
             </GridItem>
           </GridContainer>
           <GridContainer />
