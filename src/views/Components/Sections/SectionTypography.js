@@ -30,7 +30,7 @@ export default function SectionTypography() {
         <div className={classes.space50} />
         <div>
           <div className={classes.title}>
-            <h2>Protect yourself from rate volatility</h2>
+            Protect yourself from rate volatility
           </div>
           <br />
           <GridContainer>
@@ -81,7 +81,7 @@ export default function SectionTypography() {
         </div>
 		<div>
           <div className={classes.title}>
-            <h2>Leverage your capital & increase your exposure to high rates</h2>
+            Leverage your capital & increase your exposure to high rates
           </div>
           <br />
           <GridContainer>
