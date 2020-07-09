@@ -30,7 +30,7 @@ export default function SectionTypography() {
         <div className={classes.space50} />
         <div>
           <div className={classes.title1}>
-            <h2>Protect yourself from rate volatility</h2>
+            <h2>Fixed-Rate Lending</h2>
           </div>
           <br />
           <GridContainer>
@@ -46,7 +46,7 @@ export default function SectionTypography() {
                   classes.imgFluid
 				  }
               />
-			  <div className={classes.comment}>Placeholder</div>
+			  <div className={classes.comment}>Protect Yourself From Rate Volatility</div>
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
@@ -60,7 +60,7 @@ export default function SectionTypography() {
                   classes.imgFluid
 				  }
               />
-			  <div className={classes.comment}>Placeholder</div>
+			  <div className={classes.comment}>Collateralized Agreements Gauruntee Payouts</div>
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
@@ -74,7 +74,7 @@ export default function SectionTypography() {
                   classes.imgFluid
                 }
               />
-			  <div className={classes.comment}>Placeholder</div>
+			  <div className={classes.comment}>Completely Decentralized, Built on Compound & Ethereum</div>
             </GridItem>
           </GridContainer>
           <GridContainer />

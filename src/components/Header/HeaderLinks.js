@@ -56,6 +56,16 @@ export default function HeaderLinks(props) {
           ]}
         />
       </ListItem>
+	  <ListItem className={classes.listItem}>
+        <Button
+          href="https://nescience.io/wp-content/uploads/2020/06/DefiHedge-Whitepaper-1.pdf"
+          color="transparent"
+          target="_blank"
+          className={classes.navLink}
+        >
+           About
+        </Button>
+      </ListItem>
       <ListItem className={classes.listItem}>
         <Button
           href="https://nescience.io/wp-content/uploads/2020/06/DefiHedge-Whitepaper-1.pdf"
