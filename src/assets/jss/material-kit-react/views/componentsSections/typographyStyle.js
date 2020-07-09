@@ -23,7 +23,7 @@ const typographyStyle = {
     minHeight: "32px",
     textDecoration: "none",
 	position: "relative",
-	marginLeft: "35%",
+	marginLeft: "45%",
   },
   typo: {
     paddingLeft: "25%",
@@ -53,7 +53,8 @@ const typographyStyle = {
 	marginBottom: "60px",
     textDecoration: "none",
 	position: "relative",
-	width: "200px"
+	width: "250px",
+	textAlign: "center"
   },
   
   ...imagesStyles
