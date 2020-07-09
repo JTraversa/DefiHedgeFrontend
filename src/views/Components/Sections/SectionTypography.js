@@ -60,7 +60,7 @@ export default function SectionTypography() {
                   classes.imgFluid
 				  }
               />
-			  <div className={classes.comment}>Collateralized Agreements Gauruntee Payouts</div>
+			  <div className={classes.comment}>Collateralized Contracts Gauruntee 0% Default Risk</div>
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
@@ -74,14 +74,14 @@ export default function SectionTypography() {
                   classes.imgFluid
                 }
               />
-			  <div className={classes.comment}>Completely Decentralized, Built on Compound & Ethereum</div>
+			  <div className={classes.comment}>Decentralized, Built Using the Compound Protocol & Ethereum Network</div>
             </GridItem>
           </GridContainer>
           <GridContainer />
         </div>
 		<div>
           <div className={classes.title2}>
-            <h2>Leverage your capital & increase your exposure to high rates</h2>
+            <h2>Interest-Rate Swaps</h2>
           </div>
           <br />
           <GridContainer>
@@ -97,7 +97,7 @@ export default function SectionTypography() {
                   classes.imgFluid
 				  }
               />
-			  <div className={classes.comment}>Placeholder</div>
+			  <div className={classes.comment}>Leverage your capital & increase your exposure to high rates</div>
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
