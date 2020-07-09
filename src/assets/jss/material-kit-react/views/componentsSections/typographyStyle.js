@@ -52,7 +52,8 @@ const typographyStyle = {
 	marginTop: "30px",
 	marginBottom: "60px",
     textDecoration: "none",
-	position: "relative"
+	position: "relative",
+	width: "200px"
   },
   
   ...imagesStyles
