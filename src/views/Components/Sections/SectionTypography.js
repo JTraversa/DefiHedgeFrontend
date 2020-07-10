@@ -72,7 +72,7 @@ export default function SectionTypography() {
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
-                src={PiggybanksHands}
+                src={PiggybankHands}
                 alt="..."
                 className={
                   classes.imgRaised +
