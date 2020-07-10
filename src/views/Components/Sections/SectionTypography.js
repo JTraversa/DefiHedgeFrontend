@@ -22,7 +22,7 @@ import MoneyGlass from "assets/img/MoneyGlass.png"
 import MoneyUmbrella from "assets/img/MoneyUmbrella.png"
 import MoneyVault from "assets/img/MoneyVault.png"
 import PiggybanksHands from "assets/img/PiggybanksHands.png"
-import RateBalance from "assets/img/RateBalance.png"
+import RateBalance from "assets/img/RateBalance.jpeg"
 import RateGrowth from "assets/img/RateGrowth.png"
 import WateringMoney from "assets/img/WateringMoney.png"
 
