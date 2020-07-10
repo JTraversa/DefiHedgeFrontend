@@ -18,13 +18,13 @@ import Quote from "components/Typography/Quote.js";
 
 import image from "assets/img/faces/avatar.jpg";
 
-import MoneyGlass from "assets/img/faces/MoneyGlass.png"
-import MoneyUmbrella from "assets/img/faces/MoneyUmbrella.png"
-import MoneyVault from "assets/img/faces/MoneyVault.png"
-import PiggybanksHands from "assets/img/faces/PiggybanksHands.png"
-import RateBalance from "assets/img/faces/RateBalance.png"
-import RateGrowth from "assets/img/faces/RateGrowth.png"
-import WateringMoney from "assets/img/faces/WateringMoney.png"
+import MoneyGlass from "assets/img/MoneyGlass.png"
+import MoneyUmbrella from "assets/img/MoneyUmbrella.png"
+import MoneyVault from "assets/img/MoneyVault.png"
+import PiggybanksHands from "assets/img/PiggybanksHands.png"
+import RateBalance from "assets/img/RateBalance.png"
+import RateGrowth from "assets/img/RateGrowth.png"
+import WateringMoney from "assets/img/WateringMoney.png"
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/typographyStyle.js";
 
