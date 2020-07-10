@@ -27,6 +27,7 @@ import PiggybankHands from "assets/img/PiggybankHands.png"
 import RateBalance from "assets/img/RateBalance.png"
 import RateGrowth from "assets/img/RateGrowthSmall.png"
 import WateringMoney from "assets/img/WateringMoneySmall.png"
+import HandshakeContract from "assets/img/HandshakeContract.png"
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/typographyStyle.js";
 
@@ -61,7 +62,7 @@ export default function SectionTypography() {
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
-                src={MoneyVault}
+                src={HandshakeContract}
                 alt="..."
                 className={                 
 				  classes.imgRaised +
@@ -112,7 +113,7 @@ export default function SectionTypography() {
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
-                src={RateGrowth}
+                src={DollarSwap}
                 alt="..."
                 className={
 				  classes.imgRaised +
