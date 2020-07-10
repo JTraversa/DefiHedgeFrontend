@@ -18,6 +18,7 @@ import Quote from "components/Typography/Quote.js";
 
 import image from "assets/img/faces/avatar.jpg";
 
+import DollarSwap from "assets/img/DollarSwap.png"
 import InterestBubbles from "assets/img/InterestBubbles.png"
 import MoneyGlass from "assets/img/MoneyGlass.png"
 import MoneyUmbrella from "assets/img/MoneyUmbrella.png"
@@ -59,7 +60,7 @@ export default function SectionTypography() {
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
-                src={MoneyUmbrella}
+                src={MoneyVault}
                 alt="..."
                 className={                 
 				  classes.imgRaised +
@@ -69,7 +70,7 @@ export default function SectionTypography() {
                   classes.imgFluid
 				  }
               />
-			  <div className={classes.comment}>Invest Confidently Knowing Collateralized Contracts Gauruntee No Default Risk</div>
+			  <div className={classes.comment}>Lend Knowing Collateralized Contracts Gauruntee No Default Risk</div>
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
@@ -96,7 +97,7 @@ export default function SectionTypography() {
           <GridContainer>
             <GridItem xs={12} sm={2}>
               <img
-                src={image}
+                src={WateringMoney}
                 alt="..."
                 className={                  
 				  classes.imgRaised +
@@ -110,7 +111,7 @@ export default function SectionTypography() {
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
-                src={image}
+                src={RateGrowth}
                 alt="..."
                 className={
 				  classes.imgRaised +
@@ -125,7 +126,7 @@ export default function SectionTypography() {
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
-                src={image}
+                src={InterestBubbles}
                 alt="..."
                 className={
                   classes.imgRaised +
