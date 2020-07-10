@@ -13,17 +13,17 @@ const typographyStyle = {
   },
   title2: {
     marginTop: "20px",
-    minHeight: "32px",
+    minHeight: "36px",
     textDecoration: "none",
 	position: "relative",
-	marginLeft: "37%",
+	marginLeft: "35%",
   },
     title1: {
     marginTop: "20px",
-    minHeight: "32px",
+    minHeight: "36px",
     textDecoration: "none",
 	position: "relative",
-	marginLeft: "37%",
+	marginLeft: "35%",
   },
   typo: {
     paddingLeft: "25%",
