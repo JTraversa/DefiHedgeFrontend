@@ -43,7 +43,8 @@ export default function SectionTypography() {
             <h2>Fixed-Rate Lending</h2>
           </div>
           <br />
-          <GridContainer>
+          <GridContainer
+		  justify="center">
             <GridItem xs={12} sm={2}>
               <img
                 src={MoneyGlass}
