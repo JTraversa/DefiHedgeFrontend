@@ -18,6 +18,14 @@ import Quote from "components/Typography/Quote.js";
 
 import image from "assets/img/faces/avatar.jpg";
 
+import MoneyGlass from "assets/img/faces/MoneyGlass.jpg"
+import MoneyUmbrella from "assets/img/faces/MoneyUmbrella.jpg"
+import MoneyVault from "assets/img/faces/MoneyVault.jpg"
+import PiggybanksHands from "assets/img/faces/PiggybanksHands.jpg"
+import RateBalance from "assets/img/faces/RateBalance.jpg"
+import RateGrowth from "assets/img/faces/RateGrowth.jpg"
+import WateringMoney from "assets/img/faces/WateringMoney.jpg"
+
 import styles from "assets/jss/material-kit-react/views/componentsSections/typographyStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -36,7 +44,7 @@ export default function SectionTypography() {
           <GridContainer>
             <GridItem xs={12} sm={2}>
               <img
-                src={image}
+                src={MoneyGlass}
                 alt="..."
                 className={
 					                  classes.imgRaised +
@@ -50,7 +58,7 @@ export default function SectionTypography() {
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
-                src={image}
+                src={MoneyUmbrella}
                 alt="..."
                 className={                 
 				  classes.imgRaised +
@@ -64,7 +72,7 @@ export default function SectionTypography() {
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
-                src={image}
+                src={PiggybanksHands}
                 alt="..."
                 className={
                   classes.imgRaised +
