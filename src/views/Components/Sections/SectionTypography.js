@@ -99,7 +99,7 @@ export default function SectionTypography() {
           <GridContainer>
             <GridItem xs={12} sm={2}>
               <img
-                src={WateringMoney}
+                src={DollarSwap}
                 alt="..."
                 className={                  
 				  classes.imgRaised +
@@ -113,7 +113,7 @@ export default function SectionTypography() {
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
-                src={DollarSwap}
+                src={RateGrowth}
                 alt="..."
                 className={
 				  classes.imgRaised +
