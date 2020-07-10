@@ -97,7 +97,7 @@ export default function SectionTypography() {
                   classes.imgFluid
 				  }
               />
-			  <div className={classes.comment}>Leverage your capital & increase your exposure to high rates</div>
+			  <div className={classes.comment}>Leverage Your Capital Using Rate Derivatives</div>
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
@@ -112,7 +112,7 @@ export default function SectionTypography() {
 				  
 				}
               />
-		      <div className={classes.comment}>Placeholder</div>
+		      <div className={classes.comment}>Increase Your Exposure to High Rates</div>
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
@@ -126,7 +126,7 @@ export default function SectionTypography() {
                   classes.imgFluid
                 }
               />
-			  <div className={classes.comment}>Placeholder</div>
+			  <div className={classes.comment}>Speculate on Rate Increases</div>
             </GridItem>
           </GridContainer>
           <GridContainer />

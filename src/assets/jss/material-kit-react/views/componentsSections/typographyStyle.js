@@ -12,18 +12,18 @@ const typographyStyle = {
     display: "block"
   },
   title2: {
-    marginTop: "60px",
+    marginTop: "20px",
     minHeight: "32px",
     textDecoration: "none",
 	position: "relative",
-	marginLeft: "40%",
+	marginLeft: "37%",
   },
     title1: {
-    marginTop: "60px",
+    marginTop: "20px",
     minHeight: "32px",
     textDecoration: "none",
 	position: "relative",
-	marginLeft: "40%",
+	marginLeft: "37%",
   },
   typo: {
     paddingLeft: "25%",
