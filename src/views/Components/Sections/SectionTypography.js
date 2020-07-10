@@ -60,7 +60,7 @@ export default function SectionTypography() {
                   classes.imgFluid
 				  }
               />
-			  <div className={classes.comment}>Collateralized Contracts Gauruntee No Default Risk</div>
+			  <div className={classes.comment}>Invest Confidently Knowing Collateralized Contracts Gauruntee No Default Risk</div>
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
