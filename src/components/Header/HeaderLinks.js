@@ -65,7 +65,7 @@ export default function HeaderLinks(props) {
             color: "transparent"
           }}
           dropdownList={[
-            <Link to="/aboutus" className={classes.dropdownLink}>
+            <Link to="aboutus" className={classes.dropdownLink}>
               How It Works
             </Link>,
             <a
