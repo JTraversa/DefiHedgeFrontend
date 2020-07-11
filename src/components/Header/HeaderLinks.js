@@ -65,11 +65,11 @@ export default function HeaderLinks(props) {
             color: "transparent"
           }}
           dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
+            <Link to="/aboutus" className={classes.dropdownLink}>
               How It Works
             </Link>,
             <a
-              href="/login-page"
+              href="/aboutus"
               target="_blank"
               className={classes.dropdownLink}
             >
@@ -126,7 +126,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://nescience.io"
+            href="https://github.com/JTraversa/DefiHedge-Protocol"
             target="_blank"
             className={classes.navLink}
           >
