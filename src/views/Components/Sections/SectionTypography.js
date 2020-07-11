@@ -45,8 +45,7 @@ export default function SectionTypography() {
           </div>
           <br />
           <GridContainer
-		  justify="center"
-		  spacing={3}>
+		  justify="center">
             <GridItem xs={12} sm={2}>
               <img
                 src={MoneyGlass}
@@ -97,7 +96,8 @@ export default function SectionTypography() {
             <h2>Interest-Rate Swaps</h2>
           </div>
           <br />
-          <GridContainer>
+          <GridContainer
+		  justify="center">
             <GridItem xs={12} sm={2}>
               <img
                 src={DollarSwap}
