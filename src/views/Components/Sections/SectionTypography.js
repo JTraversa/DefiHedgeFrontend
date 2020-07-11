@@ -110,7 +110,7 @@ export default function SectionTypography() {
                   classes.imgFluid
 				  }
               />
-			  <div className={classes.comment}>Leverage Your Capital Using Rate Derivatives</div>
+			  <div className={classes.comment}>Leverage Your Capital Using Interest Rate Derivatives</div>
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
