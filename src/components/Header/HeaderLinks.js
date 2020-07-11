@@ -65,16 +65,12 @@ export default function HeaderLinks(props) {
             color: "transparent"
           }}
           dropdownList={[
-            <Link to="aboutus" className={classes.dropdownLink}>
+            <Link to="howitworks" className={classes.dropdownLink}>
               How It Works
             </Link>,
-            <a
-              href="/aboutus"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
+            <Link to="aboutus" className={classes.dropdownLink}>
               About Us
-            </a>,
+            </Link>,
 			<a
               href="https://github.com/JTraversa/DefiHedge-Protocol"
               target="_blank"
