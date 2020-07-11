@@ -61,11 +61,10 @@ export default function ProfilePage(props) {
         <div>
           <div className={classes.container}>
             <GridContainer justify="center">
-			  <div className={classes.name}>
-                    <h3 className={classes.title}>How It Works</h3>
-              </div>
               <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
-			  
+			  <div className={classes.name}>
+              <h3 className={classes.title}>How It Works</h3>
+              </div>
                 <NavPills
                   alignCenter
                   color="primary"
