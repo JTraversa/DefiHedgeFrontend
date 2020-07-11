@@ -11,7 +11,7 @@ import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
 
 import BuiltUsing from "assets/img/BuiltUsing.png";
-import image2 from "assets/img/bg2.jpg";
+import BuiltUsing2 from "assets/img/BuiltUsing2.png";
 import image3 from "assets/img/bg3.jpg";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.js";
@@ -40,16 +40,10 @@ export default function SectionCarousel() {
                 </div>
                 <div>
                   <img
-                    src={image2}
+                    src={BuiltUsing2}
                     alt="Second slide"
                     className="slick-image"
                   />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      Somewhere Beyond, United States
-                    </h4>
-                  </div>
                 </div>
                 <div>
                   <img src={image3} alt="Third slide" className="slick-image" />
