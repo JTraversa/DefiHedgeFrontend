@@ -47,7 +47,7 @@ export default function ProfilePage(props) {
     <div>
       <Header
         color="transparent"
-        brand="Material Kit React"
+        brand="DefiHedge"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -61,16 +61,11 @@ export default function ProfilePage(props) {
         <div>
           <div className={classes.container}>
             <GridContainer justify="center">
-              <GridItem xs={12} sm={12} md={6}>
-                <div className={classes.profile}>
-                  <div className={classes.name}>
+			  <div className={classes.name}>
                     <h3 className={classes.title}>How It Works</h3>
-                  </div>
-                </div>
-              </GridItem>
-            </GridContainer>
-            <GridContainer justify="center">
+              </div>
               <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
+			  
                 <NavPills
                   alignCenter
                   color="primary"
