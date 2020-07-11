@@ -64,7 +64,6 @@ export default function HeaderLinks(props) {
             className: classes.navLink,
             color: "transparent"
           }}
-          buttonIcon={Apps}
           dropdownList={[
             <Link to="/" className={classes.dropdownLink}>
               How It Works
