@@ -57,14 +57,34 @@ export default function HeaderLinks(props) {
         />
       </ListItem>
 	  <ListItem className={classes.listItem}>
-        <Button
-          href="https://nescience.io/wp-content/uploads/2020/06/DefiHedge-Whitepaper-1.pdf"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-           About
-        </Button>
+        <CustomDropdown
+          noLiPadding
+          buttonText="About"
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent"
+          }}
+          buttonIcon={Apps}
+          dropdownList={[
+            <Link to="/" className={classes.dropdownLink}>
+              How It Works
+            </Link>,
+            <a
+              href="/login-page"
+              target="_blank"
+              className={classes.dropdownLink}
+            >
+              About Us
+            </a>,
+			<a
+              href="https://github.com/JTraversa/DefiHedge-Protocol"
+              target="_blank"
+              className={classes.dropdownLink}
+            >
+              Github
+            </a>
+          ]}
+        />
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
