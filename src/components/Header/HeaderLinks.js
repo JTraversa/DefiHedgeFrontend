@@ -130,7 +130,7 @@ export default function HeaderLinks(props) {
             target="_blank"
             className={classes.navLink}
           >
-            <i className={classes.socialIcons + " fab fa-facebook"} />
+            <i className={classes.socialIcons + " fab fa-github"} />
           </Button>
         </Tooltip>
       </ListItem>
