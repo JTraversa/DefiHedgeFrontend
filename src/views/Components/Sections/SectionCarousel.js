@@ -10,7 +10,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
 
-import BuiltUsing from "assets/img/BuiltUsing2.png";
+import BuiltUsing from "assets/img/BuiltUsing.png";
 import image2 from "assets/img/bg2.jpg";
 import image3 from "assets/img/bg3.jpg";
 
@@ -23,7 +23,7 @@ export default function SectionCarousel() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: false
