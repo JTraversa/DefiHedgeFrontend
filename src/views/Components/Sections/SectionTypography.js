@@ -93,7 +93,7 @@ export default function SectionTypography() {
         </div>
 		<div>
           <div className={classes.title2}>
-            <h2>Interest-Rate Swaps</h2>
+            <h2>Built On Top Of</h2>
           </div>
           <br />
           <GridContainer
