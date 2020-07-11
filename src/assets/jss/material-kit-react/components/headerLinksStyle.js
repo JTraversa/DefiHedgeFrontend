@@ -102,10 +102,11 @@ const headerLinksStyle = theme => ({
   },
   dropdownLink: {
     "&,&:hover,&:focus": {
-      color: "#325847",
+      color: "inherit",
       textDecoration: "none",
       display: "block",
-      padding: "10px 20px"
+      padding: "10px 20px",
+	  backgroundColor: "#00FF26"
     }
   },
   ...tooltip,
