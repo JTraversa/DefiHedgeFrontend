@@ -45,7 +45,8 @@ export default function SectionTypography() {
           </div>
           <br />
           <GridContainer
-		  justify="space-between">
+		  justify="center"
+		  spacing={3}>
             <GridItem xs={12} sm={2}>
               <img
                 src={MoneyGlass}
