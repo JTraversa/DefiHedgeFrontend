@@ -23,8 +23,12 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Let{"'"}s talk product</h2>
           <h5 className={classes.description}>
-            We at DefiHedge see interest-rate derivatives, being the most liquid instruments in the world, as the next step in the natural progression of decentralized finance.
+            We at DefiHedge see interest-rate derivatives as the next natural step in the progression of decentralized finance. 
+		  </h5>
+		  <h5 className={classes.description}>
 			Further, in alignment with the ethos of DeFi, we believe that financial freedom should be accessable regardless of your financial or technical abilities.
+		  </h5>
+		  <h5 className={classes.description}>
             With this in mind we hope that our fixed-rate lending will broaden the market for those interested in decentralized lending.
           </h5>
         </GridItem>
