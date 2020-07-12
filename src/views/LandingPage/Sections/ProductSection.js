@@ -26,10 +26,10 @@ export default function ProductSection() {
             As the most liquid instrument in the world, interest-rate swaps are the next natural step in the progression of decentralized finance. 
 		  </h5>
 		  <h5 className={classes.description}>
-			
+			" "
 		  </h5>
 		  <h5 className={classes.description}>
-            With rate-swaps then comes fixed-rate lending and a more accessable decentralized finance ecosystem.
+            Rate-swaps then foster fixed-rate lending and a more accessable decentralized finance ecosystem.
           </h5>
         </GridItem>
       </GridContainer>
