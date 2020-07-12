@@ -18,7 +18,7 @@ import styles from "assets/jss/material-kit-react/views/landingPageSections/team
 
 import Julian from "assets/img/TraversaJulian.png";
 import team2 from "assets/img/faces/christian.jpg";
-import team3 from "assets/img/faces/kendall.jpg";
+import William from "assets/img/WilliamHsieh.png";
 
 const useStyles = makeStyles(styles);
 
@@ -40,16 +40,13 @@ export default function TeamSection() {
                 <img src={team2} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Gigi Hadid
+                This Could Be You
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>Front-End Developer</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  You have a range of experience with React implementations, prefferably regarding high throughput applications or exchanges.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -119,7 +116,7 @@ export default function TeamSection() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team3} alt="..." className={imageClasses} />
+                <img src={William} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
                 William Hsieh
