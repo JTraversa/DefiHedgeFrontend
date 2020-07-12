@@ -47,12 +47,9 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>The Protocol for Decentralized Interest-Rate Derivatives</h1>
+              <h1 className={classes.title}>The Decentralized Protocol For Interest-Rate Derivatives</h1>
               <h4>
-                Every landing page needs a small description after the big bold
-                title, that{"'"}s why we added this text here. Add here all the
-                information that can make you or your product create the first
-                impression.
+                Our project started at ETHDenver 2020 with the goal to provide a platform truly decentralized fixed-rate lending. Since then, our aim has broadened towards establishing an open & standardized platform for decentralized interest-rate swaps, in doing so providing truly fixed interest rates.
               </h4>
               <br />
               <Button
