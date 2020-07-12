@@ -40,13 +40,13 @@ export default function TeamSection() {
                 <img src={team2} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                This Could Be You
+                ?????
                 <br />
                 <small className={classes.smallTitle}>Front-End Developer</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You have a range of experience with React implementations, prefferably regarding high throughput applications or exchanges.
+                  You have a range of experience with React implementations, preferably with high throughput applications such as an exchange or marketplace.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -86,7 +86,7 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  After graduating Clemson University in 2018 and a brief period as a professional Heroes Of The Storm player, 
+                  After graduating Clemson University in 2018 and a brief period playing professional Heroes Of The Storm, 
 				  Julian founded Nescience, a software firm focused on the development of open-source financial tools. At Nescience Julian
 				  developed a proprietary order-splitting & market-making algorithm, 
 				  as well as full-stack development of Nescience's Rebalancing & Direct Indexing Tool.
