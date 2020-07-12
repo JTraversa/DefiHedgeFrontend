@@ -125,7 +125,7 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  William has an impressive range of development experience from healthcare, to energy, to his current position 
+                  William has an impressive range of development experience from healthcare, to cybersecurity, to his current position in defense 
 				  as a software developer at The Raytheon Company. After consulting for Julian throughout the development of Nescience Software & Capital,
 				  William joined him at ETHDenver where they first created DefiHedge.
                 </p>
