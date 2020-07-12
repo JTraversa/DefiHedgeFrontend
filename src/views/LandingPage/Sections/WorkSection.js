@@ -27,43 +27,6 @@ export default function WorkSection() {
 		  <h4 className={classes.description}>
             We can also be reached on LinkedIn or Twitter.
           </h4>
-          <form>
-            <GridContainer>
-              <GridItem xs={12} sm={12} md={6}>
-                <CustomInput
-                  labelText="Your Name"
-                  id="name"
-                  formControlProps={{
-                    fullWidth: true
-                  }}
-                />
-              </GridItem>
-              <GridItem xs={12} sm={12} md={6}>
-                <CustomInput
-                  labelText="Your Email"
-                  id="email"
-                  formControlProps={{
-                    fullWidth: true
-                  }}
-                />
-              </GridItem>
-              <CustomInput
-                labelText="Your Message"
-                id="message"
-                formControlProps={{
-                  fullWidth: true,
-                  className: classes.textArea
-                }}
-                inputProps={{
-                  multiline: true,
-                  rows: 5
-                }}
-              />
-              <GridItem xs={12} sm={12} md={4}>
-                <Button color="primary">Send Message</Button>
-              </GridItem>
-            </GridContainer>
-          </form>
         </GridItem>
       </GridContainer>
     </div>

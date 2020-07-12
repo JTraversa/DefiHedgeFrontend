@@ -40,7 +40,7 @@ export default function TeamSection() {
                 <img src={team2} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                ?????
+                Could Be You
                 <br />
                 <small className={classes.smallTitle}>Front-End Developer</small>
               </h4>
