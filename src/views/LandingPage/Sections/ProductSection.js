@@ -3,7 +3,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
+import Language from "@material-ui/icons/Language";
 import VerifiedUser from "@material-ui/icons/VerifiedUser";
 import Fingerprint from "@material-ui/icons/Fingerprint";
 // core components
@@ -31,6 +31,9 @@ export default function ProductSection() {
 		  <h5 className={classes.description}>
             Rate-swaps then foster fixed-rate lending and a more accessable decentralized finance ecosystem.
           </h5>
+		  <h5 className={classes.description}>
+			" "
+		  </h5>
         </GridItem>
       </GridContainer>
       <div>
@@ -39,7 +42,7 @@ export default function ProductSection() {
             <InfoArea
               title="Free Chat"
               description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Chat}
+              icon={Language}
               iconColor="info"
               vertical
             />
