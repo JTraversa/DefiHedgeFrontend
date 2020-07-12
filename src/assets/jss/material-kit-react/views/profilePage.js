@@ -39,7 +39,7 @@ const profilePageStyle = {
     display: "inline-block",
     position: "relative",
     marginTop: "30px",
-    minHeight: "58px",
+    minHeight: "78px",
     textDecoration: "none",
 	transform: "translate(0px,-100px)",
 	color: "#FFFFFF"

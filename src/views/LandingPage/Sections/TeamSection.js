@@ -16,7 +16,7 @@ import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
-import team1 from "assets/img/faces/avatar.jpg";
+import Julian from "assets/img/TraversaJulian.png";
 import team2 from "assets/img/faces/christian.jpg";
 import team3 from "assets/img/faces/kendall.jpg";
 
@@ -80,25 +80,27 @@ export default function TeamSection() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team2} alt="..." className={imageClasses} />
+                <img src={Julian} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Christian Louboutin
+                Julian Traversa
                 <br />
-                <small className={classes.smallTitle}>Designer</small>
+                <small className={classes.smallTitle}>Founder & Full Stack</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  After graduating Clemson University in 2018 and a brief period as a professional Heroes Of The Storm player, 
+				  Julian founded Nescience, a software firm focused on the development of open-source financial tools. At Nescience Julian
+				  developed a proprietary order-splitting & market-making algorithm, 
+				  as well as full-stack development of Nescience's Rebalancing & Direct Indexing Tool.
+				  
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
                 <Button
                   justIcon
                   color="transparent"
+				  href="https://twitter.com/traversajulian"
                   className={classes.margin5}
                 >
                   <i className={classes.socials + " fab fa-twitter"} />
@@ -106,6 +108,7 @@ export default function TeamSection() {
                 <Button
                   justIcon
                   color="transparent"
+				  href="https://www.linkedin.com/in/juliant94/"
                   className={classes.margin5}
                 >
                   <i className={classes.socials + " fab fa-linkedin"} />
