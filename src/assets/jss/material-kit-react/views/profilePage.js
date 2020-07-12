@@ -39,9 +39,10 @@ const profilePageStyle = {
     display: "inline-block",
     position: "relative",
     marginTop: "30px",
-    minHeight: "48px",
+    minHeight: "58px",
     textDecoration: "none",
-	transform: "translate(0px,100px)"
+	transform: "translate(0px,-100px)",
+	color: "#FFFFFF"
   },
   socials: {
     marginTop: "0",
