@@ -32,14 +32,14 @@ export default function LandingPage(props) {
   return (
     <div>
       <Header
-        color="transparent"
+        color="white"
         routes={dashboardRoutes}
         brand="DefiHedge"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
           height: 600,
-          color: "white"
+          color: "transparent"
         }}
         {...rest}
       />
