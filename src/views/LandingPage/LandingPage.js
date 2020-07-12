@@ -49,7 +49,7 @@ export default function LandingPage(props) {
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>The Decentralized Protocol For Interest-Rate Derivatives</h1>
               <h4>
-                Our project started at ETHDenver 2020 with the goal of providing a platform for decentralized fixed-rate lending. Since then, our aim has broadened towards establishing an open & standardized platform for decentralized interest-rate swap venues, in doing so providing truly fixed interest rates.
+                Our project started at ETHDenver 2020 with the goal of providing a platform for decentralized fixed-rate lending. Since then, our aim has broadened towards establishing an open & standardized platform for decentralized interest-rate swap venues, and in doing so provide truly fixed interest rates.
               </h4>
               <br />
               <Button
