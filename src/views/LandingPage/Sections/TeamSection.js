@@ -18,7 +18,7 @@ import styles from "assets/jss/material-kit-react/views/landingPageSections/team
 
 import Julian from "assets/img/TraversaJulian.png";
 import team2 from "assets/img/faces/christian.jpg";
-import William from "assets/img/WilliamHsieh.png";
+import William from "assets/img/WilliamHsieh.jpg";
 
 const useStyles = makeStyles(styles);
 
@@ -141,16 +141,10 @@ export default function TeamSection() {
                 <Button
                   justIcon
                   color="transparent"
+				  href="https://www.linkedin.com/in/wchsieh2/"
                   className={classes.margin5}
                 >
-                  <i className={classes.socials + " fab fa-instagram"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-facebook"} />
+                  <i className={classes.socials + " fab fa-linkedin"} />
                 </Button>
               </CardFooter>
             </Card>
