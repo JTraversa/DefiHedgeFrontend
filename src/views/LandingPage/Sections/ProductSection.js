@@ -23,11 +23,9 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Let{"'"}s talk product</h2>
           <h5 className={classes.description}>
-            This is the paragraph where you can write more details about your
-            product. Keep you user engaged by providing meaningful information.
-            Remember that by this time, the user is curious, otherwise he wouldn
-            {"'"}t scroll to get here. Add a button if you want the user to see
-            more.
+            We at DefiHedge see interest-rate derivatives, being the most liquid instruments in the world, as the next step in the natural progression of decentralized finance.
+			Further, in alignment with the ethos of DeFi, we believe that financial freedom should be accessable regardless of your financial or technical abilities.
+            With this in mind we hope that our fixed-rate lending will broaden the market for those interested in decentralized lending.
           </h5>
         </GridItem>
       </GridContainer>
