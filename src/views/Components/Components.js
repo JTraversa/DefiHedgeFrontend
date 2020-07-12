@@ -41,7 +41,7 @@ export default function Components(props) {
         brand="DefiHedge"
         rightLinks={<HeaderLinks />}
         fixed
-        color="transparent"
+        color="white"
         changeColorOnScroll={{
           height: 400,
           color: "white"

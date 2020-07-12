@@ -46,7 +46,7 @@ export default function ProfilePage(props) {
   return (
     <div>
       <Header
-        color="transparent"
+        color="white"
         brand="DefiHedge"
         rightLinks={<HeaderLinks />}
         fixed
