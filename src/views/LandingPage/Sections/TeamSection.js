@@ -37,7 +37,7 @@ export default function TeamSection() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team1} alt="..." className={imageClasses} />
+                <img src={team2} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
                 Gigi Hadid
@@ -122,16 +122,15 @@ export default function TeamSection() {
                 <img src={team3} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Kendall Jenner
+                William Hsieh
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>Contributor</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  William has an impressive range of development experience from healthcare, to energy, to his current position 
+				  as a software developer at The Raytheon Company. After consulting for Julian throughout the development of Nescience Software & Capital,
+				  William joined him at ETHDenver where they first created DefiHedge.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
