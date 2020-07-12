@@ -49,18 +49,18 @@ export default function LandingPage(props) {
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>The Decentralized Protocol For Interest-Rate Derivatives</h1>
               <h4>
-                Our project started at ETHDenver 2020 with the goal to provide a platform truly decentralized fixed-rate lending. Since then, our aim has broadened towards establishing an open & standardized platform for decentralized interest-rate swaps, in doing so providing truly fixed interest rates.
+                Our project started at ETHDenver 2020 with the goal to provide a platform for decentralized fixed-rate lending. Since then, our aim has broadened towards establishing an open & standardized platform for decentralized interest-rate swaps, in doing so providing truly fixed interest rates.
               </h4>
               <br />
               <Button
                 color="danger"
                 size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                href="https://www.youtube.com/watch?v=iCKwBL27MW8"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="fas fa-play" />
-                Watch video
+                Watch Proof of Concept
               </Button>
             </GridItem>
           </GridContainer>
