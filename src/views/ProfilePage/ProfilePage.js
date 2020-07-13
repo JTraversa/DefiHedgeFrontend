@@ -69,10 +69,10 @@ export default function ProfilePage(props) {
             </GridContainer>
 			<GridContainer>
 			  <GridItem xs={12} sm={6}>
-			  <Paper className={classes.paper}>xs=12 sm=6</Paper>
+			  <div className={classes.name}>xs=12 sm=6</div>
 			  </GridItem>
 			  <GridItem xs={12} sm={6}>
-			  <Paper className={classes.paper}>xs=12 sm=6</Paper>
+			  <div className={classes.name}>xs=12 sm=6</div>
 			  </GridItem>
 			</GridContainer>
           </div>
