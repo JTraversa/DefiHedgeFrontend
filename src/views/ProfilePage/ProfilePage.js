@@ -77,6 +77,7 @@ export default function ProfilePage(props) {
           <GridItem xs={12} sm={12} md={4}>
 		  
           </GridItem>
+		  </GridContainer>
           </div>
         </div>
       </div>
