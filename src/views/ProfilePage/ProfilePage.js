@@ -74,6 +74,7 @@ export default function ProfilePage(props) {
 				<div className={classes.name}>
 				Much like any traditional exchange, rates are determined by a marketplace of buyers & sellers (floating & fixed sides).
 				</div>
+				<div>{" "}</div>
 				<div className={classes.name}>
 				Users can enter limit orders at a given rate, or market orders to take the best rate currently available.
 				</div>
