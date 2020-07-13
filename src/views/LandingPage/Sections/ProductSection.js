@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
 import Language from "@material-ui/icons/Language";
 import VerifiedUser from "@material-ui/icons/VerifiedUser";
-import Fingerprint from "@material-ui/icons/Fingerprint";
+import Code from "@material-ui/icons/Code";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -59,9 +59,9 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Openness"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Fingerprint}
+              title="Open Development"
+              description="While we plan to develop the first exchange and user facing interface to the DefiHedge protocol, our goal is to have created an open protocol for others to develop venue's and applications."
+              icon={Code}
               iconColor="danger"
               vertical
             />
