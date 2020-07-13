@@ -78,8 +78,9 @@ export default function ProfilePage(props) {
 			  </div>
 			  </GridItem>
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-			  <div className={classes.name}>xs=12 sm=6</div>
+			  <div className={classes.name}>
 			  <img src={exchange} alt="..." className={imageClasses} />
+			  </div>
 			  </GridItem>
 			</GridContainer>
           </div>
