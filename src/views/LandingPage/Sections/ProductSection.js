@@ -38,8 +38,8 @@ export default function ProductSection() {
       </GridContainer>
       <div>
         <GridContainer>
+		<h2 className={classes.title}>Let{"'"}s talk product</h2>
           <GridItem xs={12} sm={12} md={4}>
-		  <h2 className={classes.title}>Ethos</h2>
             <InfoArea
               title=""
               description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
