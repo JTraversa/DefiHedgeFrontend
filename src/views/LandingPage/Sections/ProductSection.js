@@ -60,7 +60,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Open Development"
-              description="While we plan to develop the first exchange and user facing interface to the DefiHedge protocol, our goal is to have created an open protocol for others to develop venue's and applications."
+              description="While we plan to develop the first exchange and user facing interface to the DefiHedge protocol, our goal is to have created an open protocol for others to develop swap venue's and applications."
               icon={Code}
               iconColor="danger"
               vertical
