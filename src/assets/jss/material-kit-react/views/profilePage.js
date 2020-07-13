@@ -6,7 +6,8 @@ const profilePageStyle = {
   container,
   imgcontainer: {
 	  width: "200px",
-	  height: "200px"
+	  height: "200px",
+	  marginLeft: "25.5%"
   },
   img: {
 	  width: "100%",
