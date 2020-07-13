@@ -32,6 +32,8 @@ import work5 from "assets/img/examples/clem-onojegaw.jpg";
 
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
+import exchange from "assets/img/exchange.jpg";
+
 const useStyles = makeStyles(styles);
 
 export default function ProfilePage(props) {
@@ -39,7 +41,6 @@ export default function ProfilePage(props) {
   const { ...rest } = props;
   const imageClasses = classNames(
     classes.imgRaised,
-    classes.imgRoundedCircle,
     classes.imgFluid
   );
   const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
@@ -69,10 +70,16 @@ export default function ProfilePage(props) {
             </GridContainer>
 			<GridContainer justify="center">
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-			  <div className={classes.name}>xs=12 sm=6</div>
+			  <div className={classes.name}>
+			  Much like any traditional exchange, rates are determined by a marketplace of buyers & sellers (floating & fixed sides).
+			  </div>
+			  <div className={classes.name}>
+			  Users can enter limit orders at a given rate, or market orders to take the best rate currently available.
+			  </div>
 			  </GridItem>
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 			  <div className={classes.name}>xs=12 sm=6</div>
+			  <img src={exchange} alt="..." className={imageClasses} />
 			  </GridItem>
 			</GridContainer>
           </div>
