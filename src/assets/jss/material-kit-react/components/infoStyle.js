@@ -13,12 +13,13 @@ const infoStyle = {
   infoArea: {
     maxWidth: "360px",
     margin: "0 auto",
-    padding: "0px"
+    padding: "0px",
+	transform: "translate(-25px,0px)"
   },
   iconWrapper: {
     float: "left",
     marginTop: "24px",
-    marginRight: "0px"
+    marginRight: "10px"
   },
   primary: {
     color: primaryColor
