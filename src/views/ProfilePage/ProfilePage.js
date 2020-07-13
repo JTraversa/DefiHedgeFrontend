@@ -68,16 +68,13 @@ export default function ProfilePage(props) {
               </GridItem>
             </GridContainer>
 			<GridContainer>
-          <GridItem xs={12} sm={12} md={4}>
-
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-		  
-          </GridItem>
-		  </GridContainer>
+			  <GridItem xs={12} sm={6}>
+			  <Paper className={classes.paper}>xs=12 sm=6</Paper>
+			  </GridItem>
+			  <GridItem xs={12} sm={6}>
+			  <Paper className={classes.paper}>xs=12 sm=6</Paper>
+			  </GridItem>
+			</GridContainer>
           </div>
         </div>
       </div>
