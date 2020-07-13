@@ -29,7 +29,7 @@ export default function ProductSection() {
 			  " "
 		  </h5>
 		  <h5 className={classes.description}>
-            Rate-swaps then foster fixed-rate lending and open DeFi to a wider usebase, creating a more accessable decentralized financial ecosystem.
+            Rate-swaps then foster fixed-rate lending, opening DeFi to a wider usebase abd creating a more accessable decentralized financial ecosystem.
           </h5>
 		  <h5 className={classes.description}>
 			{" "}
@@ -39,8 +39,9 @@ export default function ProductSection() {
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
+		  <h2 className={classes.title}>Ethos</h2>
             <InfoArea
-              title="Free Chat"
+              title=""
               description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
               icon={Language}
               iconColor="info"
