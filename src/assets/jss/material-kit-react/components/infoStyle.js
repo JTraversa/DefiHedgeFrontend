@@ -48,7 +48,7 @@ const infoStyle = {
   descriptionWrapper: {
     color: grayColor,
     overflow: "hidden",
-	transform: "translate(-10px,0px)"
+	transform: "translate(-7.5px,-25px)"
   },
   title,
   description: {
