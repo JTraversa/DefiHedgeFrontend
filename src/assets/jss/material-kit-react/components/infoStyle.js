@@ -13,8 +13,7 @@ const infoStyle = {
   infoArea: {
     maxWidth: "360px",
     margin: "0 auto",
-    padding: "0px",
-	transform: "translate(-25px,0px)"
+    padding: "0px"
   },
   iconWrapper: {
     float: "left",
@@ -48,7 +47,8 @@ const infoStyle = {
   },
   descriptionWrapper: {
     color: grayColor,
-    overflow: "hidden"
+    overflow: "hidden",
+	transform: "translate(-25px,0px)"
   },
   title,
   description: {
