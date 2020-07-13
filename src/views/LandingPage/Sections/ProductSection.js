@@ -26,7 +26,7 @@ export default function ProductSection() {
             As the most liquid instrument in the world, interest-rate swaps are the next natural step in the progression of decentralized finance. 
 		  </h5>
 		  <h5 className={classes.description}>
-			  " "
+			  {" "}
 		  </h5>
 		  <h5 className={classes.description}>
             Rate-swaps then foster fixed-rate lending, opening DeFi to a wider usebase abd creating a more accessable decentralized financial ecosystem.
@@ -37,12 +37,12 @@ export default function ProductSection() {
         </GridItem>
       </GridContainer>
       <div>
-	  <h2 className={classes.title}>Let{"'"}s talk product</h2>
+	  <h2 className={classes.title}>Objectives</h2>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Openness"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Community"
+              description="We would like to maintain a decentralized community through the implementation of a stakeholder based governance system."
               icon={Language}
               iconColor="info"
               vertical
@@ -50,8 +50,8 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Verified Users"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Safety"
+              description="We have designed our collateralized system with paramount importance placed upon the safety of our users funds. In the coming months our code will be thoroughly & publicly audited by a reputable organization."
               icon={VerifiedUser}
               iconColor="success"
               vertical
@@ -59,7 +59,7 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Fingerprint"
+              title="Openness"
               description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
               icon={Fingerprint}
               iconColor="danger"
