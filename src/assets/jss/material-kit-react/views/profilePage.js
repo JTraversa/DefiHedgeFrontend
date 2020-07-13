@@ -29,7 +29,7 @@ const profilePageStyle = {
     textAlign: "center !important"
   },
   name: {
-    marginTop: "0px"
+    marginTop: "10px"
   },
   ...imagesStyle,
   main: {
