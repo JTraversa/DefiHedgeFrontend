@@ -29,7 +29,7 @@ export default function ProductSection() {
 			  {" "}
 		  </h5>
 		  <h5 className={classes.description}>
-            Rate-swaps then foster fixed-rate lending, opening DeFi to a wider usebase abd creating a more accessable decentralized financial ecosystem.
+            Importantly, Rate-swaps foster fixed-rate lending, opening DeFi to a wider use-case while creating a more accessable decentralized financial ecosystem.
           </h5>
 		  <h5 className={classes.description}>
 			{" "}
