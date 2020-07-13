@@ -22,7 +22,7 @@ export default function WorkSection() {
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Contact us</h2>
           <h4 className={classes.description}>
-            You can contact us directly by email: JulianT@Nescience.io
+            You can contact us directly at: JulianT@Nescience.io
           </h4>
 		  <h4 className={classes.description}>
             We can also be reached on LinkedIn or Twitter.
