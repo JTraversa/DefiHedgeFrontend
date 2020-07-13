@@ -37,11 +37,11 @@ export default function ProductSection() {
         </GridItem>
       </GridContainer>
       <div>
+	  <h2 className={classes.title}>Let{"'"}s talk product</h2>
         <GridContainer>
-		<h2 className={classes.title}>Let{"'"}s talk product</h2>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title=""
+              title="Openness"
               description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
               icon={Language}
               iconColor="info"
