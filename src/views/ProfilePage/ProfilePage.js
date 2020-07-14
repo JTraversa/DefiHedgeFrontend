@@ -60,14 +60,14 @@ export default function ProfilePage(props) {
       />
       <Parallax small filter image={require("assets/img/svgversion.svg")} />
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <div>
-		    <GridContainer justify="center">
+			<GridContainer justify="center">
               <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
 			  <div className={classes.name}>
               <h3 className={classes.title}>How It Works</h3>
               </div>
               </GridItem>
             </GridContainer>
+        <div>
           <div className={classes.container}>
 			<GridContainer justify="center">
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
