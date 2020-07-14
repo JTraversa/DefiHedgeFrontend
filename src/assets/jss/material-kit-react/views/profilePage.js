@@ -31,6 +31,9 @@ const profilePageStyle = {
   name: {
     marginBottom: "20px"
   },
+  topmargin: {
+	  marginTop: "20px"
+  },
   ...imagesStyle,
   main: {
     background: "#FFFFFF",
