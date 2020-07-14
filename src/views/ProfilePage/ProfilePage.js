@@ -59,19 +59,12 @@ export default function ProfilePage(props) {
         {...rest}
       />
       <Parallax small filter image={require("assets/img/svgversion.svg")} />
-	  <GridContainer justify="center">
-        <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
-              <h3 className={classes.title}>How It Works</h3>
-        </GridItem>
-      </GridContainer>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div>
           <div className={classes.container}>
+		  <h3 className={classes.title}>How It Works</h3>
 			<GridContainer justify="center">
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-				<div className={classes.topMargin}>
-					~{"\n"}
-				</div>
 				<div className={classes.name}>
 				Much like any traditional exchange, rates are determined by a marketplace of buyers & sellers (floating & fixed sides).
 				</div>
