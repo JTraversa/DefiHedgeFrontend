@@ -57,10 +57,9 @@ export default function ProfilePage(props) {
           color: "transparent"
         }}
         {...rest}
-      /><div>
-	                <h3 className={classes.title}>How It Works</h3>
-					</div>
+      />
       <Parallax small filter image={require("assets/img/svgversion.svg")} />
+              <h3 className={classes.title}>How It Works</h3>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div>
           <div className={classes.container}>
