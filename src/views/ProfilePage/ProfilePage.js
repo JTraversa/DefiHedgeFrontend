@@ -67,8 +67,8 @@ export default function ProfilePage(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div>
           <div className={classes.container}>
+			<GridContainer justify="center">
 			<div className={classes.containerMargin}>
-			<GridContainer justify="center">
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 				<div className={classes.name}>
 				Much like any traditional exchange, rates are determined by a marketplace of buyers & sellers (floating & fixed sides).
@@ -99,8 +99,8 @@ export default function ProfilePage(props) {
 				<img src={exchange} alt="..." className={imageClasses} />
 				</div>
 			  </GridItem>
+			  </div>
 			</GridContainer>
-			</div>
           </div>
         </div>
       </div>
