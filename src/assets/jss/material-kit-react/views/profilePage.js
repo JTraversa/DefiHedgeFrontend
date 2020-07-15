@@ -29,7 +29,8 @@ const profilePageStyle = {
     textAlign: "center !important"
   },
   name: {
-    marginTop: "20px"
+    marginTop: "20px",
+	transform: "translate(-10px,0px)"
   },
   topmargin: {
 	  marginTop: "20px"
@@ -67,7 +68,8 @@ const profilePageStyle = {
     color: "#999"
   },
   navWrapper: {
-    textAlign: "center"
+    textAlign: "center",
+	marginTop: "10px"
   }
 };
 
