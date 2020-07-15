@@ -82,9 +82,8 @@ export default function ProfilePage(props) {
 				<img src={exchange} alt="..." className={imageClasses} />
 				</div>
 			  </GridItem>
-			  </div>
 			</GridContainer>
-
+			</div>
         </div>
       </div>
       <Footer />
