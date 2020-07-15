@@ -72,7 +72,8 @@ const profilePageStyle = {
 	marginTop: "10px"
   },
   containerMargin: {
-	  marginTop: "25px"
+	  marginTop: "25px",
+	  marginBottom: "25px"
   }
 };
 
