@@ -84,9 +84,9 @@ export default function ProfilePage(props) {
 				</div>
 			  </GridItem>
 			  </div>
+			<br />
+			<br />
 			</GridContainer>
-			<br />
-			<br />
 			<GridContainer justify="center">
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 				<div className={classes.name}>
