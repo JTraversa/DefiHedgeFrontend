@@ -30,7 +30,7 @@ import work2 from "assets/img/examples/clem-onojeghuo.jpg";
 import work3 from "assets/img/examples/cynthia-del-rio.jpg";
 import work4 from "assets/img/examples/mariya-georgieva.jpg";
 import work5 from "assets/img/examples/clem-onojegaw.jpg";
-
+import moneyvault from "assets/img/moneyvault.png";
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
 import exchange from "assets/img/exchange.jpg";
@@ -103,9 +103,30 @@ export default function ProfilePage(props) {
 				</div>
 				<div>{" "}</div>
 				<div className={classes.name}>
-				In this example, Alice wants a fixed-rate and has $1000 in principal, whereas Bob wants a leveraged floating position.
+				In this example, Alice wants a 1 year, fixed 5% rate, and has $1000 in principal, whereas Bob wants a leveraged floating position.
 				</div>
 			  </div>
+			  </GridItem>
+			</GridContainer>
+			</div>
+		<Divider />
+		  <div className={classes.container2}>
+			<GridContainer justify="center">
+			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+			  <div className={classes.textWrapper}>
+				<div className={classes.name}>
+				Once their order has been accepted, Bob has agreed to back this fixed rate with $50.
+				</div>
+				<div>{" "}</div>
+				<div className={classes.name}>
+				Both users funds are then pooled together in the DefiHedge smart contract until the term completes.
+				</div>
+			   </div>
+				</GridItem>
+			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+				<div className={classes.imgcontainer}>
+				<img src={moneyvault} alt="..." className={imageClasses} />
+				</div>
 			  </GridItem>
 			</GridContainer>
 			</div>
