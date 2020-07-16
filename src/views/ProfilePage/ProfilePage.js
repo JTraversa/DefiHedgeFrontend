@@ -90,8 +90,8 @@ export default function ProfilePage(props) {
 		<Divider />
 		<div className={classes.container2}>
 			<GridContainer justify="center">
-			<div className={classes.textWrapper}>
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+			  <div className={classes.textWrapper}>
 				<div className={classes.name}>
 				Much like any traditional exchange, rates are determined by a marketplace of buyers & sellers (floating & fixed sides).
 				</div>
@@ -99,8 +99,8 @@ export default function ProfilePage(props) {
 				<div className={classes.name}>
 				Users can enter limit orders at a given rate, or market orders to take the best rate currently available.
 				</div>
-				</GridItem>
-			</div>
+			  </div>
+			  </GridItem>
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 				<div className={classes.imgcontainer}>
 				<img src={exchange} alt="..." className={imageClasses} />
