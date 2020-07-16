@@ -88,7 +88,7 @@ export default function ProfilePage(props) {
 			</GridContainer>
 			</div>
 		<Divider />
-		
+		<div className={classes.container2}>
 			<GridContainer justify="center">
 			<div className={classes.textWrapper}>
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
@@ -108,7 +108,7 @@ export default function ProfilePage(props) {
 			  </GridItem>
 			</GridContainer>
 			</div>
-        
+        </div>
       </div>
       <Footer />
     </div>
