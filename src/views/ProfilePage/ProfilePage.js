@@ -78,7 +78,7 @@ export default function ProfilePage(props) {
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 			  <div className={classes.textWrapper}>
 				<div className={classes.name}>
-				Much like any traditional exchange, rates are determined by a marketplace of buyers & sellers (floating & fixed sides).
+				Much like any traditional exchange, rates are determined by a marketplace of buyers & sellers (floating & fixed side swaps).
 				</div>
 				<div>{" "}</div>
 				<div className={classes.name}>
@@ -99,18 +99,13 @@ export default function ProfilePage(props) {
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 			  <div className={classes.textWrapper}>
 				<div className={classes.name}>
-				Much like any traditional exchange, rates are determined by a marketplace of buyers & sellers (floating & fixed sides).
+				For every swap, there is a fixed, and floating side.
 				</div>
 				<div>{" "}</div>
 				<div className={classes.name}>
-				Users can enter limit orders at a given rate, or market orders to take the best rate currently available.
+				In this example, Alice wants a fixed-rate and has $1000 in principal, whereas Bob wants a leveraged floating position.
 				</div>
 			  </div>
-			  </GridItem>
-			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-				<div className={classes.imgcontainer}>
-				<img src={exchange} alt="..." className={imageClasses} />
-				</div>
 			  </GridItem>
 			</GridContainer>
 			</div>
