@@ -78,6 +78,7 @@ export default function ProfilePage(props) {
 				<div className={classes.name}>
 				Users can enter limit orders at a given rate, or market orders to take the best rate currently available.
 				</div>
+			   </div>
 				</GridItem>
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 				<div className={classes.imgcontainer}>
