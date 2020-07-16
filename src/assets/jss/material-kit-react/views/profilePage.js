@@ -5,7 +5,7 @@ import imagesStyle from "assets/jss/material-kit-react/imagesStyles.js";
 const profilePageStyle = {
   textWrapper: {
 	  marginTop: "20px"
-  }
+  },
   container2: {
 	  ...container,
 	  marginTop: "40px",
