@@ -183,7 +183,11 @@ export default function ProfilePage(props) {
 			</GridContainer>
 			</div>
 		<Divider />
-		<Button
+		<Divider />
+		<div className={classes.container2}>
+			<GridContainer justify="center">
+			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+			  <Button
                 color="danger"
                 size="lg"
                 href="https://www.youtube.com/watch?v=iCKwBL27MW8"
@@ -193,6 +197,9 @@ export default function ProfilePage(props) {
                 <i className="fas fa-play" />
                 Watch Proof of Concept
               </Button>
+			  </GridItem>
+			</GridContainer>
+		</div>
 		<Divider />
 		<div className={classes.container2}>
 			<GridContainer justify="center">
