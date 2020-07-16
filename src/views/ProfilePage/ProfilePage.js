@@ -136,9 +136,9 @@ export default function ProfilePage(props) {
 		<div className={classes.container2}>
 			<GridContainer justify="center">
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-			  <div className={classes.textWrapper}>
+			  <div className={classes.textWrapper2}>
 				<div className={classes.name}>
-				In the same transaction, the funds are used to mint cTokens on the Compound Protocol in order to earn interest for the duration of the term.
+				In the same transaction, the pooled funds are used to mint cTokens on the Compound Protocol in order to earn interest for the duration of the term.
 				</div>
 			   </div>
 				</GridItem>
@@ -167,11 +167,11 @@ export default function ProfilePage(props) {
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 			  <div className={classes.textWrapper}>
 				<div className={classes.name}>
-				Alice is returned her $1000 principal, in addition to the $50 Bob had already committed.
+				Alice is returned her $1000 principal, in addition to the garunteed $50 Bob had already committed.
 				</div>
 				<div>{" "}</div>
 				<div className={classes.name}>
-				Assuming the rate has remained an average of ~8% over the duration, Bob will be returned $84, a 68% return on his investment.
+				Assuming the rate has remained an average of ~8% over the duration, Bob is returned $84, a 68% return on his investment.
 				</div>
 			   </div>
 				</GridItem>
