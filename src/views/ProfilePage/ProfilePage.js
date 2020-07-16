@@ -121,7 +121,7 @@ export default function ProfilePage(props) {
 				</div>
 				<div>{" "}</div>
 				<div className={classes.name}>
-				Both user"'"s funds are then pooled together in the DefiHedge smart contract until the term completes.
+				Both user's funds are then pooled together in the DefiHedge smart contract until the term completes.
 				</div>
 			   </div>
 				</GridItem>
