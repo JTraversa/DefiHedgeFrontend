@@ -31,7 +31,7 @@ import work3 from "assets/img/examples/cynthia-del-rio.jpg";
 import work4 from "assets/img/examples/mariya-georgieva.jpg";
 import work5 from "assets/img/examples/clem-onojegaw.jpg";
 import MoneyVault from "assets/img/MoneyVault.png";
-import Compound from "assets/img/Compound.png";
+import Compound from "assets/img/compound.png";
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
 import exchange from "assets/img/exchange.jpg";
