@@ -17,7 +17,7 @@ import { Apps, CloudDownload } from "@material-ui/icons";
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
 import Button from "components/CustomButtons/Button.js";
-
+import WhitepaperPDF from "assets/pdf/defihedge_whitepaper.pdf";
 import styles from "assets/jss/material-kit-react/components/headerLinksStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -75,7 +75,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://nescience.io/wp-content/uploads/2020/06/DefiHedge-Whitepaper-1.pdf"
+          a href= {WhitepaperPDF}
           color="transparent"
           target="_blank"
           className={classes.navLink}
