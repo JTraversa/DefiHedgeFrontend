@@ -32,6 +32,7 @@ import work4 from "assets/img/examples/mariya-georgieva.jpg";
 import work5 from "assets/img/examples/clem-onojegaw.jpg";
 import MoneyVault from "assets/img/MoneyVault.png";
 import Compound from "assets/img/compound.png";
+import WateringMoney from "assets/img/WateringMoneySmall.png";
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
 import exchange from "assets/img/exchange.jpg";
@@ -98,13 +99,15 @@ export default function ProfilePage(props) {
 		<div className={classes.container2}>
 			<GridContainer justify="center">
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+			  <div className={classes.textWrapper2}>
 				<div className={classes.name}>
 				For every swap, there is a fixed, and floating side.
 				</div>
 				<div>{" "}</div>
 				<div className={classes.name}>
-				In this example, Alice wants a 1 year, fixed 5% rate, and has $1000 in principal, whereas Bob wants a leveraged floating position.
+				In this example the current market rate is 8%. Alice wants a 1 year, fixed 5% rate, and has $1000 in principal, whereas Bob wants a leveraged floating position.
 				</div>
+			  </div>
 			  </GridItem>
 			</GridContainer>
 			</div>
@@ -114,7 +117,7 @@ export default function ProfilePage(props) {
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 			  <div className={classes.textWrapper}>
 				<div className={classes.name}>
-				Once their order has been accepted, Bob has agreed to back this fixed rate with $50.
+				Once Bob accepts Alice's order, Bob has agreed to back this fixed rate with $50.
 				</div>
 				<div>{" "}</div>
 				<div className={classes.name}>
@@ -135,13 +138,46 @@ export default function ProfilePage(props) {
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 			  <div className={classes.textWrapper}>
 				<div className={classes.name}>
-				The funds are, in the same transaction, used to mint cTokens on the Compound Protocol in order to earn interest.
+				In the same transaction, the funds are used to mint cTokens on the Compound Protocol in order to earn interest for the duration of the term.
 				</div>
 			   </div>
 				</GridItem>
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 				<div className={classes.imgcontainer}>
 				<img src={Compound} alt="..." className={imageClasses} />
+				</div>
+			  </GridItem>
+			</GridContainer>
+			</div>
+		<Divider />
+		<div className={classes.container2}>
+			<GridContainer justify="center">
+			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+			  <div className={classes.textWrapper2}>
+				<div className={classes.name}>
+				Once the term has completed, either party can initiate a return of funds.
+				</div>
+			  </div>
+			  </GridItem>
+			</GridContainer>
+			</div>
+		<Divider />
+			<div className={classes.container2}>
+			<GridContainer justify="center">
+			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+			  <div className={classes.textWrapper}>
+				<div className={classes.name}>
+				Alice is returned her $1000 principal, in addition to the $50 Bob had already committed.
+				</div>
+				<div>{" "}</div>
+				<div className={classes.name}>
+				Assuming the rate has remained an average of ~8% over the duration, Bob will be returned $84, a 68% return on his investment.
+				</div>
+			   </div>
+				</GridItem>
+			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+				<div className={classes.imgcontainer}>
+				<img src={WateringMoney} alt="..." className={imageClasses} />
 				</div>
 			  </GridItem>
 			</GridContainer>
