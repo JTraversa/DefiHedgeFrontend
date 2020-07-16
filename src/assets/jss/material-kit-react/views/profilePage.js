@@ -9,6 +9,9 @@ const profilePageStyle = {
   textWrapper: {
 	  marginTop: "20px"
   },
+    textWrapper3: {
+	  marginTop: "45px"
+  },
   container2: {
 	  ...container,
 	  marginTop: "40px",
