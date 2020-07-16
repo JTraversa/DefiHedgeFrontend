@@ -117,11 +117,11 @@ export default function ProfilePage(props) {
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 			  <div className={classes.textWrapper}>
 				<div className={classes.name}>
-				Once Bob accepts Alice's order, Bob has agreed to back this fixed rate with $50.
+				Once Bob accepts Alice's order, Bob has agreed to back Alice\'s fixed rate with $50.
 				</div>
 				<div>{" "}</div>
 				<div className={classes.name}>
-				Both users funds are then pooled together in the DefiHedge smart contract until the term completes.
+				Both user\'s funds are then pooled together in the DefiHedge smart contract until the term completes.
 				</div>
 			   </div>
 				</GridItem>
@@ -155,7 +155,7 @@ export default function ProfilePage(props) {
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 			  <div className={classes.textWrapper2}>
 				<div className={classes.name}>
-				Once the term has completed, either party can initiate a return of funds.
+				Once the lending term has completed, either party can initiate a return of funds.
 				</div>
 			  </div>
 			  </GridItem>
@@ -167,7 +167,7 @@ export default function ProfilePage(props) {
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 			  <div className={classes.textWrapper}>
 				<div className={classes.name}>
-				Alice is returned her $1000 principal, in addition to the garunteed $50 Bob had already committed.
+				Alice is returned her $1000 principal, in addition to the expected $50 (5% yield) Bob had already committed.
 				</div>
 				<div>{" "}</div>
 				<div className={classes.name}>
