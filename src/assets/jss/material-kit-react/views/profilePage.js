@@ -33,7 +33,7 @@ const profilePageStyle = {
     textAlign: "center !important"
   },
   name: {
-    marginTop: "20px",
+    marginTop: "40px",
 	transform: "translate(-10px,0px)"
   },
   topmargin: {
