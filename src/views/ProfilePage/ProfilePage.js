@@ -97,7 +97,6 @@ export default function ProfilePage(props) {
 		<div className={classes.container2}>
 			<GridContainer justify="center">
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-			  <div className={classes.textWrapper}>
 				<div className={classes.name}>
 				For every swap, there is a fixed, and floating side.
 				</div>
@@ -105,7 +104,6 @@ export default function ProfilePage(props) {
 				<div className={classes.name}>
 				In this example, Alice wants a 1 year, fixed 5% rate, and has $1000 in principal, whereas Bob wants a leveraged floating position.
 				</div>
-			  </div>
 			  </GridItem>
 			</GridContainer>
 			</div>
