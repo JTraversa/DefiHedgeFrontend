@@ -117,11 +117,11 @@ export default function ProfilePage(props) {
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 			  <div className={classes.textWrapper}>
 				<div className={classes.name}>
-				Once Bob accepts Alice's order, Bob has agreed to back Alice\'s fixed rate with $50.
+					Once Bob accepts Alice"'"s order, Bob has agreed to back Alice"'"s fixed rate with $50.
 				</div>
 				<div>{" "}</div>
 				<div className={classes.name}>
-				Both user\'s funds are then pooled together in the DefiHedge smart contract until the term completes.
+				Both user"'"s funds are then pooled together in the DefiHedge smart contract until the term completes.
 				</div>
 			   </div>
 				</GridItem>
