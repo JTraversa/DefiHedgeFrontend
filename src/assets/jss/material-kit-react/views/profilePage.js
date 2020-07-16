@@ -3,6 +3,9 @@ import { container, title } from "assets/jss/material-kit-react.js";
 import imagesStyle from "assets/jss/material-kit-react/imagesStyles.js";
 
 const profilePageStyle = {
+  textWrapper: {
+	  marginTop: "20px"
+  }
   container2: {
 	  ...container,
 	  marginTop: "40px",
@@ -33,7 +36,7 @@ const profilePageStyle = {
     textAlign: "center !important"
   },
   name: {
-    marginTop: "40px",
+    marginTop: "20px",
 	transform: "translate(-10px,0px)"
   },
   topmargin: {
