@@ -30,7 +30,7 @@ import work2 from "assets/img/examples/clem-onojeghuo.jpg";
 import work3 from "assets/img/examples/cynthia-del-rio.jpg";
 import work4 from "assets/img/examples/mariya-georgieva.jpg";
 import work5 from "assets/img/examples/clem-onojegaw.jpg";
-import moneyvault from "assets/img/moneyvault.png";
+import MoneyVault from "assets/img/MoneyVault.png";
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
 import exchange from "assets/img/exchange.jpg";
@@ -125,7 +125,7 @@ export default function ProfilePage(props) {
 				</GridItem>
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 				<div className={classes.imgcontainer}>
-				<img src={moneyvault} alt="..." className={imageClasses} />
+				<img src={MoneyVault} alt="..." className={imageClasses} />
 				</div>
 			  </GridItem>
 			</GridContainer>
