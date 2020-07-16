@@ -138,7 +138,7 @@ export default function ProfilePage(props) {
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 			  <div className={classes.textWrapper3}>
 				<div className={classes.name}>
-				In the same transaction, the pooled funds are used to mint cTokens on the Compound Protocol in order to earn interest for the duration of the term.
+				In the same transaction, the pooled funds are used to mint cTokens on the Compound Protocol in order to earn interest for the duration of the agreement.
 				</div>
 			   </div>
 				</GridItem>
