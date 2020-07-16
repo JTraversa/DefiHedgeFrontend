@@ -40,7 +40,8 @@ const profilePageStyle = {
   },
   name: {
     marginTop: "20px",
-	transform: "translate(-10px,0px)"
+	transform: "translate(-10px,0px)",
+	color: "black"
   },
   topmargin: {
 	  marginTop: "20px"
