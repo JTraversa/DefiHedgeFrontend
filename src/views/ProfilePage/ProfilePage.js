@@ -31,6 +31,7 @@ import work3 from "assets/img/examples/cynthia-del-rio.jpg";
 import work4 from "assets/img/examples/mariya-georgieva.jpg";
 import work5 from "assets/img/examples/clem-onojegaw.jpg";
 import MoneyVault from "assets/img/MoneyVault.png";
+import Compound from "assets/img/Compound.png";
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
 import exchange from "assets/img/exchange.jpg";
@@ -124,6 +125,23 @@ export default function ProfilePage(props) {
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 				<div className={classes.imgcontainer}>
 				<img src={MoneyVault} alt="..." className={imageClasses} />
+				</div>
+			  </GridItem>
+			</GridContainer>
+			</div>
+		<Divider />
+		<div className={classes.container2}>
+			<GridContainer justify="center">
+			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+			  <div className={classes.textWrapper}>
+				<div className={classes.name}>
+				The funds are, in the same transaction, used to mint cTokens on the Compound Protocol in order to earn interest.
+				</div>
+			   </div>
+				</GridItem>
+			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+				<div className={classes.imgcontainer}>
+				<img src={Compound} alt="..." className={imageClasses} />
 				</div>
 			  </GridItem>
 			</GridContainer>
