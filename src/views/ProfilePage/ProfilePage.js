@@ -167,7 +167,7 @@ export default function ProfilePage(props) {
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 			  <div className={classes.textWrapper}>
 				<div className={classes.name}>
-				Alice is returned her $1000 principal, in addition to the expected $50 (5% yield) Bob had already committed.
+				Alice is returned her $1000 principal, in addition to the expected $50 (5% yield) which Bob had initially committed.
 				</div>
 				<div>{" "}</div>
 				<div className={classes.name}>
@@ -199,7 +199,7 @@ export default function ProfilePage(props) {
 			  </GridItem>
 			</GridContainer>
 		</div>
-		<Divider light="true"/>
+		<Divider light="true" />
 		<div className={classes.container2}>
 			<GridContainer justify="center">
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
