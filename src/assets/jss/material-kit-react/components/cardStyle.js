@@ -42,6 +42,6 @@ const cardStyle = {
     fontSize: ".875rem",
     transition: "all 300ms linear",
 	overflow: "hidden"
-	},
+	}
 
 export default cardStyle;
