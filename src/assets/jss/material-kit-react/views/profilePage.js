@@ -47,7 +47,8 @@ const profilePageStyle = {
   name: {
     marginTop: "20px",
 	transform: "translate(-10px,0px)",
-	color: "black"
+	color: "black",
+	fontFamily: '"Geneva", "Tahoma", "Verdana", sans-serif',
   },
   topmargin: {
 	  marginTop: "20px"
