@@ -155,7 +155,7 @@ export default function ProfilePage(props) {
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 			  <div className={classes.textWrapper2}>
 				<div className={classes.name}>
-				Once the lending term has completed, either party can initiate a return of funds.
+				When the lending term has completed, either party can initiate a return of funds.
 				</div>
 			  </div>
 			  </GridItem>
