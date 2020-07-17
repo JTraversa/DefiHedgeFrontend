@@ -25,7 +25,7 @@ const cardStyle = {
     overflow: "hidden"
   },
   cardCarousel2: {
-	      border: "0",
+	border: "0",
     marginBottom: "30px",
     marginTop: "30px",
     borderRadius: "6px",
@@ -42,6 +42,6 @@ const cardStyle = {
     fontSize: ".875rem",
     transition: "all 300ms linear",
 	overflow: "hidden"
-};
+	};
 
 export default cardStyle;
