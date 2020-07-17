@@ -14,12 +14,12 @@ const useStyles = makeStyles(styles);
 
 export default function Card(props) {
   const classes = useStyles();
-  const { className, children, plain, carousel, ...rest } = props;
+  const { className, carousel2, children, plain, carousel, ...rest } = props;
   const cardClasses = classNames({
     [classes.card]: carousel,
     [classes.cardPlain]: plain,
     [classes.cardCarousel]: carousel,
-	[classes.cardCarousel2]: carousel2,
+	[classes.cardCarousel2]: carousel2,	
     [className]: className !== undefined
   });
   return (
