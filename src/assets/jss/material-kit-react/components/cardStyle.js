@@ -23,7 +23,7 @@ const cardStyle = {
   },
   cardCarousel: {
     overflow: "hidden"
-  }
+  },
   cardCarousel2: {
 	      border: "0",
     marginBottom: "30px",

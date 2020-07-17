@@ -215,31 +215,31 @@ export default function ProfilePage(props) {
 		<div className={classes.container2}>
 			<GridContainer justify="center">
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-			  <Card carousel>
+			  <Card carousel2>
               <Carousel {...settings}>
                 <div className={classes.container2}>
-			<GridContainer justify="center">
-			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-			  <div className={classes.textWrapper}>
-				<div className={classes.name}>
-				Alice is returned her $1000 principal, in addition to the expected $50 (5% yield) which Bob had initially committed.
+					<GridContainer justify="center">
+					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+					  <div className={classes.textWrapper}>
+						<div className={classes.name}>
+						Alice is returned her $1000 principal, in addition to the expected $50 (5% yield) which Bob had initially committed.
+						</div>
+						<div>{" "}</div>
+						<div className={classes.name}>
+						Assuming the rate has remained an average of ~8% over the duration, Bob is returned $84, a 68% return on his investment.
+						</div>
+					   </div>
+						</GridItem>
+					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+						<div className={classes.imgcontainer}>
+						<img src={WateringMoney} alt="..." className={imageClasses} />
+						</div>
+					  </GridItem>
+					</GridContainer>
 				</div>
-				<div>{" "}</div>
-				<div className={classes.name}>
-				Assuming the rate has remained an average of ~8% over the duration, Bob is returned $84, a 68% return on his investment.
-				</div>
-			   </div>
-				</GridItem>
-			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-				<div className={classes.imgcontainer}>
-				<img src={WateringMoney} alt="..." className={imageClasses} />
-				</div>
-			  </GridItem>
-			</GridContainer>
-			</div>
               </Carousel>
             </Card>
-			  </GridItem>
+			</GridItem>
 			</GridContainer>
 		</div>
         </div>
