@@ -47,7 +47,7 @@ const profilePageStyle = {
   name: {
     marginTop: "20px",
 	transform: "translate(-10px,0px)",
-	color: "black"
+	color: "#cdd4e1"
   },
   topmargin: {
 	  marginTop: "20px"
@@ -61,7 +61,7 @@ const profilePageStyle = {
   mainRaised: {
     margin: "-60px 30px 0px",
     borderRadius: "6px",
-	backgroundColor: "#c7ced9",
+	backgroundColor: "#1a1e2e",
     boxShadow:
       "0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)"
   },
