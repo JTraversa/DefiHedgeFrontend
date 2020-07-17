@@ -17,6 +17,12 @@ const profilePageStyle = {
 	  marginTop: "40px",
 	  marginBottom: "40px"
   },
+  container3: {
+	  ...container,
+	  marginTop: "40px",
+	  marginBottom: "40px",
+	  maxWidth: "720px"
+  },
   imgcontainer: {
 	  width: "200px",
 	  height: "200px",
