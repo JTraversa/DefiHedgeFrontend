@@ -34,8 +34,10 @@ import MoneyVault from "assets/img/MoneyVault.png";
 import Compound from "assets/img/compound.png";
 import WateringMoney from "assets/img/WateringMoneySmall.png";
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
-
 import exchange from "assets/img/exchange.jpg";
+
+import Carousel from "react-slick";
+import Card from "components/Card/Card.js";
 
 const useStyles = makeStyles(styles);
 
@@ -48,6 +50,15 @@ export default function ProfilePage(props) {
 	classes.img
   );
   const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
+  
+    const settings = {
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true
+  };
   return (
     <div>
       <Header
@@ -199,11 +210,36 @@ export default function ProfilePage(props) {
 			  </GridItem>
 			</GridContainer>
 		</div>
+		
 		<Divider light="true" />
 		<div className={classes.container2}>
 			<GridContainer justify="center">
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-			  </GridItem>
+			  <Card carousel>
+              <Carousel {...settings}>
+                <div className={classes.container2}>
+					<GridContainer justify="center">
+					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+					  <div className={classes.textWrapper}>
+						<div className={classes.name}>
+						Alice is returned her $1000 principal, in addition to the expected $50 (5% yield) which Bob had initially committed.
+						</div>
+						<div>{" "}</div>
+						<div className={classes.name}>
+						Assuming the rate has remained an average of ~8% over the duration, Bob is returned $84, a 68% return on his investment.
+						</div>
+					   </div>
+						</GridItem>
+					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+						<div className={classes.imgcontainer}>
+						<img src={WateringMoney} alt="..." className={imageClasses} />
+						</div>
+					  </GridItem>
+					</GridContainer>
+				</div>
+              </Carousel>
+            </Card>
+			</GridItem>
 			</GridContainer>
 		</div>
         </div>
