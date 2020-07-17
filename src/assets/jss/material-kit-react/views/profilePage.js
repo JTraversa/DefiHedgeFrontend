@@ -21,6 +21,9 @@ const profilePageStyle = {
 	  width: "200px",
 	  height: "200px",
 	  marginLeft: "25.5%"
+	  borderRadius: "15% !important"
+	  boxShadow:
+      "0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2)"
   },
   img: {
 	  width: "100%",
