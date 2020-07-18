@@ -106,7 +106,7 @@ const profilePageStyle = {
     navWrapper2: {
     textAlign: "center",
 	marginTop: "10px",
-	marginBottom: "10px"
+	marginBottom: "10px",
 	marginLeft: "100px"
   },
   containerMargin: {
