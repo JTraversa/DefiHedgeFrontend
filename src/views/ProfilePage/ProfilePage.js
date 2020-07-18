@@ -160,39 +160,60 @@ export default function ProfilePage(props) {
 			  </GridItem>
 			</GridContainer>
 			</div>
-		<Divider light="true" />
-		<div className={classes.container2}>
+		<Divider light="true" />			
+			<div className={classes.container3}>
 			<GridContainer justify="center">
-			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-			  <div className={classes.textWrapper2}>
-				<div className={classes.name}>
-				When the lending term has completed, either party can initiate a return of funds.
+			  <GridItem xs={12} className={classes.navWrapper}>
+			  <Card carousel2>
+              <Carousel {...settings}>
+                <div className={classes.container3}>
+					<GridContainer justify="center">
+					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+					  <div className={classes.textWrapper4}>
+						<div className={classes.name}>
+						When the lending term has completed, either party can initiate a return of funds.
+						</div>
+					   </div>
+						</GridItem>
+					</GridContainer>
 				</div>
-			  </div>
-			  </GridItem>
+              </Carousel>
+            </Card>
+			</GridItem>
 			</GridContainer>
-			</div>
-		<Divider light="true" />
-			<div className={classes.container2}>
+		</div>
+		<Divider light="true" />			
+		<div className={classes.container3}>
 			<GridContainer justify="center">
-			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-			  <div className={classes.textWrapper}>
-				<div className={classes.name}>
-				Alice is returned her $1000 principal, in addition to the expected $50 (5% yield) which Bob had initially committed.
+			  <GridItem xs={12} className={classes.navWrapper}>
+			  <Card carousel2>
+              <Carousel {...settings}>
+                <div className={classes.container3}>
+					<GridContainer justify="center">
+					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+					  <div className={classes.textWrapper4}>
+						<div className={classes.name}>
+						Alice is returned her $1000 principal, in addition to the expected $50 (5% yield) which Bob had initially committed.
+						</div>
+						<div>{" "}</div>
+						<div className={classes.name}>
+						Assuming the rate has remained an average of ~8% over the duration, Bob is returned $84, a 68% return on his investment.
+						</div>
+					   </div>
+						</GridItem>
+					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+						<div className={classes.imgcontainer2}>
+						<img src={WateringMoney} alt="..." className={imageClasses} />
+						</div>
+					  </GridItem>
+					</GridContainer>
 				</div>
-				<div>{" "}</div>
-				<div className={classes.name}>
-				Assuming the rate has remained an average of ~8% over the duration, Bob is returned $84, a 68% return on his investment.
-				</div>
-			   </div>
-				</GridItem>
-			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-				<div className={classes.imgcontainer}>
-				<img src={WateringMoney} alt="..." className={imageClasses} />
-				</div>
-			  </GridItem>
+
+              </Carousel>
+            </Card>
+			</GridItem>
 			</GridContainer>
-			</div>
+		</div>
 		<Divider light="true"/>
 		<div className={classes.container2}>
 			<GridContainer justify="center">
