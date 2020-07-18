@@ -36,9 +36,15 @@ export default function SectionCarousel() {
             <Card carousel>
               <Carousel {...settings}>
                 <div>
-                  <img src={BuiltUsing} alt="First slide" className="slick-image" />
+                  <img src={BuiltUsing}  className="slick-image" />
                 </div>
-
+                <div>
+                  <img
+                    src={BuiltUsing2}
+                    
+                    className="slick-image"
+                  />
+                </div>
               </Carousel>
             </Card>
           </GridItem>
