@@ -220,7 +220,7 @@ export default function ProfilePage(props) {
                 <div className={classes.container3}>
 					<GridContainer justify="center">
 					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-					  <div className={classes.textWrapper}>
+					  <div className={classes.textWrapper4}>
 						<div className={classes.name}>
 						Alice is returned her $1000 principal, in addition to the expected $50 (5% yield) which Bob had initially committed.
 						</div>
