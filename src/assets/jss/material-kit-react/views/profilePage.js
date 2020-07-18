@@ -18,7 +18,7 @@ const profilePageStyle = {
 	  marginBottom: "40px"
   },
   container3: {
-	  paddingRight: "0px",
+	  paddingRight: "15px",
 	  paddingLeft: "15px",
 	  marginRight: "auto",
 	  marginLeft: "auto",
@@ -98,6 +98,11 @@ const profilePageStyle = {
   navWrapper: {
     textAlign: "center",
 	marginTop: "10px"
+  },
+  navWrapper2: {
+    textAlign: "center",
+	marginTop: "10px",
+	marginLeft: "15px"
   },
   containerMargin: {
 	  marginTop: "25px",
