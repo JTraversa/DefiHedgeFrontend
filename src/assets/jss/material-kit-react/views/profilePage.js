@@ -18,6 +18,10 @@ const profilePageStyle = {
 	  marginBottom: "40px"
   },
   container3: {
+	  paddingRight: "15px",
+	  paddingLeft: "15px",
+	  marginRight: "auto",
+	  marginLeft: "auto",
 	  marginTop: "40px",
 	  marginBottom: "40px",
 	  maxWidth: "960px"
