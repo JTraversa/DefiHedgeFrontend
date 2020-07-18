@@ -24,7 +24,7 @@ const profilePageStyle = {
 	  marginLeft: "auto",
 	  marginTop: "40px",
 	  marginBottom: "40px",
-	  maxWidth: "960px"
+	  maxWidth: "1140px"
   },
   imgcontainer: {
 	  width: "200px",
