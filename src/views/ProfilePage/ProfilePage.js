@@ -180,7 +180,7 @@ export default function ProfilePage(props) {
                 <div className={classes.container3}>
 					<GridContainer justify="center">
 					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-					  <div className={classes.textWrapper4}>
+					  <div className={classes.textWrapper5}>
 						<div className={classes.name}>
 						When the lending term has completed, either party can initiate a return of funds.
 						</div>
