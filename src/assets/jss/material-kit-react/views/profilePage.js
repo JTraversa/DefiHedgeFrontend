@@ -39,7 +39,7 @@ const profilePageStyle = {
 	  width: "200px",
 	  height: "200px",
 	  marginLeft: "25.5%",
-	  marginRight: "50px"
+	  marginRight: "0px"
   },
   img: {
 	  width: "100%",
