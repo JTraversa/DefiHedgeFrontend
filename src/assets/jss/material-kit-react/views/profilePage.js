@@ -22,7 +22,7 @@ const profilePageStyle = {
 	  marginBottom: "40px"
   },
   container3: {
-	  paddingRight: "15px",
+	  paddingRight: "0px",
 	  paddingLeft: "15px",
 	  marginRight: "auto",
 	  marginLeft: "auto",
