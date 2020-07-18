@@ -218,8 +218,6 @@ export default function ProfilePage(props) {
 			  <Card carousel2>
               <Carousel {...settings}>
                 <div>
-					<GridContainer>
-					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 					  <div className={classes.textWrapper4}>
 						<div className={classes.name}>
 						Alice is returned her $1000 principal, in addition to the expected $50 (5% yield) which Bob had initially committed.
@@ -229,17 +227,11 @@ export default function ProfilePage(props) {
 						Assuming the rate has remained an average of ~8% over the duration, Bob is returned $84, a 68% return on his investment.
 						</div>
 					   </div>
-						</GridItem>
-					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 						<div className={classes.imgcontainer2}>
 						<img src={WateringMoney} alt="..." className={imageClasses} />
 						</div>
-					  </GridItem>
-					</GridContainer>
 				</div>
 				<div>
-					<GridContainer>
-					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 					  <div className={classes.textWrapper4}>
 						<div className={classes.name}>
 						Alice is returned her $1000 principal, in addition to the expected $50 (5% yield) which Bob had initially committed.
@@ -249,13 +241,9 @@ export default function ProfilePage(props) {
 						Assuming the rate has remained an average of ~8% over the duration, Bob is returned $84, a 68% return on his investment.
 						</div>
 					   </div>
-						</GridItem>
-					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
 						<div className={classes.imgcontainer2}>
 						<img src={WateringMoney} alt="..." className={imageClasses} />
 						</div>
-					  </GridItem>
-					</GridContainer>
 				</div>
               </Carousel>
             </Card>
