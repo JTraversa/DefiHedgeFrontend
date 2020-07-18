@@ -217,7 +217,6 @@ export default function ProfilePage(props) {
 			  <GridItem xs={12} className={classes.navWrapper}>
 			  <Card carousel2>
               <Carousel {...settings}>
-			  <div>
                 <div className={classes.container3}>
 					<GridContainer justify="center">
 					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
@@ -238,29 +237,7 @@ export default function ProfilePage(props) {
 					  </GridItem>
 					</GridContainer>
 				</div>
-				</div>
-				<div>
-				<div className={classes.container3}>
-					<GridContainer justify="center">
-					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-					  <div className={classes.textWrapper4}>
-						<div className={classes.name}>
-						Much like any traditional exchange, rates are determined by a marketplace of buyers & sellers (floating & fixed side swaps).
-						</div>
-						<div>{" "}</div>
-						<div className={classes.name}>
-						Users can enter limit orders at a given rate, or market orders to take the best rate currently available.
-						</div>
-					   </div>
-						</GridItem>
-					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-						<div className={classes.imgcontainer2}>
-						<img src={exchange} alt="..." className={imageClasses} />
-						</div>
-					  </GridItem>
-					</GridContainer>
-				</div>
-				</div>
+
               </Carousel>
             </Card>
 			</GridItem>
