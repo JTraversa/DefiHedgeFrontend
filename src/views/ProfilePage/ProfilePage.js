@@ -17,7 +17,7 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
 import Divider from '@material-ui/core/Divider';
-
+import BuiltUsing2 from "assets/img/BuiltUsing2.png";
 import profile from "assets/img/faces/christian.jpg";
 
 import studio1 from "assets/img/examples/studio-1.jpg";
@@ -237,7 +237,13 @@ export default function ProfilePage(props) {
 					  </GridItem>
 					</GridContainer>
 				</div>
-
+				<div>
+                  <img
+                    src={BuiltUsing2}
+                    alt="Second slide"
+                    className="slick-image"
+                  />
+                </div>
               </Carousel>
             </Card>
 			</GridItem>
