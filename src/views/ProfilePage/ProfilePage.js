@@ -214,7 +214,7 @@ export default function ProfilePage(props) {
 		<Divider light="true" />
 		<div className={classes.container3}>
 			<GridContainer justify="center">
-			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+			  <GridItem xs={12} className={classes.navWrapper}>
 			  <Card carousel2>
               <Carousel {...settings}>
                 <div className={classes.container3}>
