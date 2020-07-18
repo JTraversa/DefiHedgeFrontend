@@ -26,7 +26,8 @@ export default function SectionCarousel() {
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true
+    autoplay: true,
+	fade: true
   };
   return (
     <div className={classes.section}>
