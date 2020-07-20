@@ -18,7 +18,7 @@ const profilePageStyle = {
   },
     textWrapper5: {
 	  marginTop: "-5px",
-	  translate: "transform(15px,0px)",
+	  transform: "translate(15px,0px)",
 	  marginLeft: "Auto",
 	  marginRight: "Auto"
   },
