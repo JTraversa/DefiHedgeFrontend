@@ -123,26 +123,37 @@ export default function ProfilePage(props) {
 			</GridContainer>
 			</div>
 		<Divider light="true" />
-		  <div className={classes.container2}>
+		<div className={classes.container3}>
 			<GridContainer justify="center">
-			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-			  <div className={classes.textWrapper}>
-				<div className={classes.name}>
-					Once Bob accepts Alice's order, Bob has agreed to back Alice's fixed rate with $50.
+			  <GridItem xs={12} className={classes.navWrapper}>
+			  <Card carousel2>
+              <Carousel {...settings}>
+                <div className={classes.container3}>
+					<GridContainer justify="center">
+					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+					  <div className={classes.textWrapper4}>
+						<div className={classes.name}>
+						Once Bob accepts Alice's order, Bob has agreed to back Alice's fixed rate with $50.
+						</div>
+						<div>{" "}</div>
+						<div className={classes.name}>
+						Both user's funds are then pooled together in the DefiHedge smart contract until the term completes.
+						</div>
+					   </div>
+						</GridItem>
+					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+						<div className={classes.imgcontainer2}>
+						<img src={MoneyVault} alt="..." className={imageClasses} />
+						</div>
+					  </GridItem>
+					</GridContainer>
 				</div>
-				<div>{" "}</div>
-				<div className={classes.name}>
-				Both user's funds are then pooled together in the DefiHedge smart contract until the term completes.
-				</div>
-			   </div>
-				</GridItem>
-			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-				<div className={classes.imgcontainer}>
-				<img src={MoneyVault} alt="..." className={imageClasses} />
-				</div>
-			  </GridItem>
+
+              </Carousel>
+            </Card>
+			</GridItem>
 			</GridContainer>
-			</div>
+		</div>
 		<Divider light="true" />
 		<div className={classes.container3}>
 			<GridContainer justify="center">
@@ -171,6 +182,7 @@ export default function ProfilePage(props) {
 			  </GridItem>
 			  </GridContainer>
 		</div>
+		
 		<Divider light="true" />			
 			<div className={classes.container4}>
 			<GridContainer justify="center">
