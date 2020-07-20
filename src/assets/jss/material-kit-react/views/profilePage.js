@@ -79,8 +79,6 @@ const profilePageStyle = {
     textAlign: "center !important"
   },
   name: {
-    marginTop: "20px",
-	transform: "translate(-10px,0px)",
 	color: "black",
 	fontFamily: '"Geneva", "Tahoma", "Verdana", sans-serif',
   },
