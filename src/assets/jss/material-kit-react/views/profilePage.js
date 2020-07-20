@@ -17,7 +17,7 @@ const profilePageStyle = {
 	  paddingLeft: "100px"
   },
     textWrapper5: {
-	  marginTop: "5px",
+	  marginTop: "-5px",
 	  marginLeft: "Auto",
 	  marginRight: "Auto"
   },
@@ -42,7 +42,7 @@ const profilePageStyle = {
 	  marginLeft: "auto",
 	  marginTop: "0px",
 	  marginBottom: "0px",
-	  maxWidth: "400px"
+	  maxWidth: "650px"
   },
   imgcontainer: {
 	  width: "200px",
