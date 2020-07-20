@@ -83,6 +83,12 @@ const profilePageStyle = {
 	color: "black",
 	fontFamily: '"Geneva", "Tahoma", "Verdana", sans-serif',
   },
+  name2: {
+    marginTop: "20px",
+	marginBottom: "20px",
+	color: "black",
+	fontFamily: '"Geneva", "Tahoma", "Verdana", sans-serif',
+  },
   topmargin: {
 	  marginTop: "20px"
   },
