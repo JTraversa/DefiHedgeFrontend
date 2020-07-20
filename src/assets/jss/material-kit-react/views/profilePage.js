@@ -35,6 +35,15 @@ const profilePageStyle = {
 	  marginBottom: "40px",
 	  maxWidth: "1140px"
   },
+  container4: {
+	  paddingRight: "0px",
+	  paddingLeft: "15px",
+	  marginRight: "auto",
+	  marginLeft: "auto",
+	  marginTop: "40px",
+	  marginBottom: "40px",
+	  maxWidth: "540px"
+  },
   imgcontainer: {
 	  width: "200px",
 	  height: "200px",
