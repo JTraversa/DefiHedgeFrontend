@@ -143,7 +143,7 @@ export default function ProfilePage(props) {
 						</div>
 						<div>{" "}</div>
 						<div className={classes.name}>
-						Our first user, Alice, wants a 1 year fixed 5% rate, and has $1000 in principal. Our second user, Bob, wishes to take a leveraged position on the Compound rate.
+						Our first user, Alice, wants a 1 year fixed 5% rate and has $1000 in principal. Our second user, Bob, wishes to take a leveraged position on the Compound rate.
 						</div>
 					   </div>
 						</GridItem>
