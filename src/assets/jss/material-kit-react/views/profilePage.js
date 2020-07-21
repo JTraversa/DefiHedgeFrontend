@@ -118,7 +118,7 @@ const profilePageStyle = {
     zIndex: "3"
   },
   mainRaised: {
-    margin: "-200px 30px 0px",
+    margin: "-180px 30px 0px",
     borderRadius: "6px",
 	backgroundColor: "#f2f3f4",
     boxShadow:
@@ -131,7 +131,7 @@ const profilePageStyle = {
     display: "inline-block",
     position: "relative",
     textDecoration: "none",
-	transform: "translate(0px,-150px)",
+	transform: "translate(0px,-180px)",
 	color: "#FFFFFF",
 	fontSize: "40px"
   },
