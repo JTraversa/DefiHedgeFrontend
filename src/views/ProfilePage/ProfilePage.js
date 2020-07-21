@@ -226,7 +226,7 @@ export default function ProfilePage(props) {
 						</div>
 					</GridItem>
 					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-					  <div className={classes.textWrapper6}>
+					  <div className={classes.textWrapper7}>
 						<div className={classes.name}>
 						When the lending term has completed, either party can initiate a return of funds.
 						</div>
