@@ -121,12 +121,13 @@ const profilePageStyle = {
       "0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)"
   },
   title: {
-    ...title,
+    color: "#3C4858",
+    fontWeight: "700",
+    fontFamily: `"Roboto Slab", "Times New Roman", serif`
     display: "inline-block",
     position: "relative",
-    minHeight: "5px",
     textDecoration: "none",
-	transform: "translate(0px,-100px)",
+	transform: "translate(0px,-150px)",
 	color: "#FFFFFF"
   },
   socials: {
