@@ -127,7 +127,7 @@ export default function ProfilePage(props) {
                 <div className={classes.container3}>
 					<GridContainer justify="center">
 					<GridItem xs={12} sm={6} className={classes.navWrapper}>
-						<div className={classes.imgcontainer2}>
+						<div className={classes.imgcontainer3}>
 						<img src={AliceBob} alt="..." className={imageClasses} />
 						</div>
 					</GridItem>
@@ -150,21 +150,6 @@ export default function ProfilePage(props) {
 			</GridItem>
 			</GridContainer>
 		</div>
-		<div className={classes.container2}>
-			<GridContainer justify="center">
-			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-			  <div className={classes.textWrapper2}>
-				<div className={classes.name}>
-				For every swap, there is a fixed, and floating side.
-				</div>
-				<div>{" "}</div>
-				<div className={classes.name}>
-				In this example the current market rate is 8%. Alice wants a 1 year, fixed 5% rate, and has $1000 in principal, whereas Bob wants a leveraged floating position.
-				</div>
-			  </div>
-			  </GridItem>
-			</GridContainer>
-			</div>
 		<Divider light="true" />
 		<div className={classes.container3}>
 			<GridContainer justify="center">
