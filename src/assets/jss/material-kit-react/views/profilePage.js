@@ -13,7 +13,7 @@ const profilePageStyle = {
 	  marginTop: "45px"
   },
     textWrapper4: {
-	  marginTop: "20%",
+	  marginTop: "15%",
 	  paddingLeft: "100px"
   },
     textWrapper5: {
