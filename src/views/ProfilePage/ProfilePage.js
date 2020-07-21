@@ -132,7 +132,7 @@ export default function ProfilePage(props) {
 						</div>
 					</GridItem>
 					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-					  <div className={classes.textWrapper4}>
+					  <div className={classes.textWrapper6}>
 						<div className={classes.name}>
 						For every swap, there is a fixed, and floating side.
 						</div>
