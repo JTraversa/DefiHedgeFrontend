@@ -139,9 +139,9 @@ export default function ProfilePage(props) {
 						</div>
 						<div>{" "}</div>
 						<div className={classes.name}>
-						In our example, the current market rate is 8%. The first user, Alice, wants a 1 year, fixed 5% rate, and has $1000 in principal. The second user, Bob, wishes to take a leveraged floating position.
+						In our example, the current Compoundd rate is 8%. 
 						</div>
-						div>{" "}</div>
+						<div>{" "}</div>
 						<div className={classes.name}>
 						The first user, Alice, wants a 1 year, fixed 5% rate, and has $1000 in principal. The second user, Bob, wishes to take a leveraged floating position.
 						</div>
