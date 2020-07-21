@@ -123,7 +123,7 @@ const profilePageStyle = {
   title: {
     color: "#3C4858",
     fontWeight: "700",
-    fontFamily: `"Roboto Slab", "Times New Roman", serif`
+    fontFamily: `"Roboto Slab", "Times New Roman", serif`,
     display: "inline-block",
     position: "relative",
     textDecoration: "none",
