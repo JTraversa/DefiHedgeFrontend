@@ -63,8 +63,8 @@ const profilePageStyle = {
   imgcontainer3: {
 	  width: "200px",
 	  height: "200px",
-	  marginLeft: "50px",
-	  marginRight: "25.5%"
+	  marginLeft: "auto",
+	  marginRight: "auto"
   },
   img: {
 	  width: "100%",
