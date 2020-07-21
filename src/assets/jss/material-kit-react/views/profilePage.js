@@ -27,7 +27,7 @@ const profilePageStyle = {
 	  paddingRight: "100px"
   },
     textWrapper7: {
-	  marginTop: "50px",
+	  marginTop: "50%",
 	  paddingRight: "100px"
   },
   container2: {
