@@ -119,7 +119,7 @@ export default function ProfilePage(props) {
 			</GridItem>
 			</GridContainer>
 		</div>
-		<Divider light="true" />
+
 		<div className={classes.container3}>
 			<GridContainer justify="center">
 			  <GridItem xs={12} className={classes.navWrapper}>
@@ -151,7 +151,7 @@ export default function ProfilePage(props) {
 			</GridItem>
 			</GridContainer>
 		</div>
-		<Divider light="true" />
+
 		<div className={classes.container3}>
 			<GridContainer justify="center">
 			  <GridItem xs={12} className={classes.navWrapper}>
@@ -183,7 +183,7 @@ export default function ProfilePage(props) {
 			</GridItem>
 			</GridContainer>
 		</div>
-		<Divider light="true" />
+
 		<div className={classes.container3}>
 			<GridContainer justify="center">
 			  <GridItem xs={12} className={classes.navWrapper}>
@@ -212,7 +212,7 @@ export default function ProfilePage(props) {
 			  </GridContainer>
 		</div>
 		
-		<Divider light="true" />		
+	
 			<div className={classes.container3}>
 			<GridContainer justify="center">
 			  <GridItem xs={12} className={classes.navWrapper}>
@@ -240,7 +240,7 @@ export default function ProfilePage(props) {
 			</GridItem>
 			</GridContainer>
 		</div>
-		<Divider light="true" />			
+	
 		<div className={classes.container3}>
 			<GridContainer justify="center">
 			  <GridItem xs={12} className={classes.navWrapper}>
@@ -272,7 +272,7 @@ export default function ProfilePage(props) {
 			</GridItem>
 			</GridContainer>
 		</div>
-		<Divider light="true"/>
+
 		<div className={classes.container2}>
 			<GridContainer justify="center">
 			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
