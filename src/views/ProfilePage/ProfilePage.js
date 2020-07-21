@@ -36,6 +36,7 @@ import WateringMoney from "assets/img/WateringMoneySmall.png";
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 import exchange from "assets/img/exchange.jpg";
 import AliceBob from "assets/img/AliceBob.png";
+import TimeMoney from "assets/img/TimeMoney.jpg";
 
 import Carousel from "react-slick";
 import Card from "components/Card/Card.js";
@@ -211,29 +212,34 @@ export default function ProfilePage(props) {
 			  </GridContainer>
 		</div>
 		
-		<Divider light="true" />			
-			<div className={classes.container4}>
+		<Divider light="true" />		
+			<div className={classes.container3}>
 			<GridContainer justify="center">
 			  <GridItem xs={12} className={classes.navWrapper}>
 			  <Card carousel2>
               <Carousel {...settings}>
-                <div className={classes.container4}>
+                <div className={classes.container3}>
 					<GridContainer justify="center">
+					<GridItem xs={12} sm={6} className={classes.navWrapper}>
+						<div className={classes.imgcontainer3}>
+						<img src={TimeMoney} alt="..." className={imageClasses} />
+						</div>
+					</GridItem>
 					  <GridItem xs={12} sm={6} className={classes.navWrapper}>
-					  <div className={classes.textWrapper5}>
-						<div className={classes.name2}>
+					  <div className={classes.textWrapper6}>
+						<div className={classes.name}>
 						When the lending term has completed, either party can initiate a return of funds.
 						</div>
 					   </div>
 						</GridItem>
 					</GridContainer>
 				</div>
+
               </Carousel>
             </Card>
 			</GridItem>
 			</GridContainer>
 		</div>
-
 		<Divider light="true" />			
 		<div className={classes.container3}>
 			<GridContainer justify="center">
