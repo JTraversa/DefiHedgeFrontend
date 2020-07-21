@@ -120,7 +120,7 @@ const profilePageStyle = {
     ...title,
     display: "inline-block",
     position: "relative",
-    minHeight: "84px",
+    minHeight: "140px",
     textDecoration: "none",
 	transform: "translate(0px,-100px)",
 	color: "#FFFFFF"
