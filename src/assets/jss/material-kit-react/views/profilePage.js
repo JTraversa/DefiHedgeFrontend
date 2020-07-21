@@ -27,7 +27,7 @@ const profilePageStyle = {
 	  paddingRight: "100px"
   },
     textWrapper7: {
-	  marginTop: "50%",
+	  marginTop: "25%",
 	  paddingRight: "100px"
   },
   container2: {
@@ -128,7 +128,8 @@ const profilePageStyle = {
     position: "relative",
     textDecoration: "none",
 	transform: "translate(0px,-150px)",
-	color: "#FFFFFF"
+	color: "#FFFFFF",
+	fontSize: "40px"
   },
   socials: {
     marginTop: "0",
