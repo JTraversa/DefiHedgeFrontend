@@ -118,7 +118,7 @@ const profilePageStyle = {
     zIndex: "3"
   },
   mainRaised: {
-    margin: "-60px 30px 0px",
+    margin: "0px 30px 0px",
     borderRadius: "6px",
 	backgroundColor: "#f2f3f4",
     boxShadow:
