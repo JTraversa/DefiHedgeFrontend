@@ -282,7 +282,7 @@ export default function ProfilePage(props) {
 			  <GridItem xs={12} sm={6} className={classes.navWrapper2}>
 			  <Button
                 color="danger"
-                size="lg"
+                size="xlg"
                 href="https://www.youtube.com/watch?v=iCKwBL27MW8"
                 target="_blank"
                 rel="noopener noreferrer"
