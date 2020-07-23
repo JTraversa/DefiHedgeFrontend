@@ -16,6 +16,8 @@ import Primary from "components/Typography/Primary.js";
 import Muted from "components/Typography/Muted.js";
 import Quote from "components/Typography/Quote.js";
 
+import image from "assets/img/faces/avatar.jpg";
+
 import DollarSwap from "assets/img/DollarSwap.png"
 import InterestBubbles from "assets/img/InterestBubbles.png"
 import MoneyGlass from "assets/img/MoneyGlass.png"
