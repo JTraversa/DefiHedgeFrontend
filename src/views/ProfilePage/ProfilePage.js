@@ -279,7 +279,7 @@ export default function ProfilePage(props) {
 
 		<div className={classes.container2}>
 			<GridContainer justify="center">
-			  <GridItem xs={12} sm={6} className={classes.navWrapper}>
+			  <GridItem xs={12} sm={6} className={classes.navWrapper2}>
 			  <Button
                 color="danger"
                 size="lg"
