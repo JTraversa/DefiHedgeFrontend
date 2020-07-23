@@ -133,7 +133,7 @@ const profilePageStyle = {
     textDecoration: "none",
 	transform: "translate(0px,-180px)",
 	color: "#FFFFFF",
-	fontSize: "40px"
+	fontSize: "60px"
   },
   socials: {
     marginTop: "0",
