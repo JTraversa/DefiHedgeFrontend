@@ -1,7 +1,8 @@
 {
-  "name": "DefiHedge Landing",
-  "version": "1.0.0",
-  "description": "DefiHedge Landing Page",
+  "homepage": "./",
+  "name": "material-kit-react",
+  "version": "1.9.0",
+  "description": "Material Kit React. Coded by Creative Tim",
   "private": true,
   "main": "src/index.js",
   "dependencies": {
@@ -33,7 +34,6 @@
     "gulp-append-prepend": "1.0.8",
     "prettier": "2.0.5"
   },
-  "homepage": "./",
   "optionalDependencies": {
     "typescript": "3.9.3"
   },
