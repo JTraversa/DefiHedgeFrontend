@@ -52,7 +52,7 @@ export default function Components(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}><img src={image1} width="250px" height="175.6px" /></h1>
+                <h1 className={classes.title}><img src={image1} className={classes.imgcontainer} width="250px" height="175.6px" /></h1>
 				<h1 className={classes.title}>The Decentralized Protocol For Interest-Rate Derivatives</h1>
 				<h4 className={classes.subtitle}>
 					Coming Q4 2020

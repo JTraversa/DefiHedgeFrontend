@@ -2,6 +2,9 @@ import { container, title } from "assets/jss/material-kit-react.js";
 
 const componentsStyle = {
   container,
+  imgcontainer: {
+	  marginTop: "-25px"
+  },
   brand: {
     color: "#FFFFFF",
     textAlign: "left"
@@ -10,7 +13,7 @@ const componentsStyle = {
 	fontFamily: `"Roboto Slab", "Times New Roman", serif`,
     display: "inline-block",
     position: "relative",
-	transform: "translate(-10%, -25%)",
+	transform: "translate(0px, -25%)",
 	minHeight: "32px",
 	fontSize: "32px",
     color: "#FFFFFF",
