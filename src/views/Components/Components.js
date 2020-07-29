@@ -51,14 +51,12 @@ export default function Components(props) {
       <Parallax image={require("assets/img/svgversion.svg")}>
         <div className={classes.container}>
           <GridContainer>
-            <GridItem>
-              <div className={classes.brand}>
+            <GridItem xs={12} sm={12} md={6}>
                 <h1 className={classes.title}><img src={image1} width="250px" height="175.6px" /></h1>
 				<h1 className={classes.title}>The Decentralized Protocol For Interest-Rate Derivatives</h1>
 				<h4 className={classes.subtitle}>
 					{"Coming Q3 2020"}
                 </h4>
-              </div>
             </GridItem>
           </GridContainer>
         </div>

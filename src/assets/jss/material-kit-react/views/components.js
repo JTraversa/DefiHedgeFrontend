@@ -12,7 +12,6 @@ const componentsStyle = {
     position: "relative",
 	transform: "translate(0px, -25%)",
 	minHeight: "32px",
-	fontSize: "32px"
     color: "#FFFFFF",
     textDecoration: "none"
   },
