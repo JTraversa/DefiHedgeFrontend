@@ -12,9 +12,10 @@ const componentsStyle = {
     position: "relative",
 	transform: "translate(0px, -25%)",
 	minHeight: "32px",
-	fontSize: "32px",
+	fontSize: "42px",
     color: "#FFFFFF",
-    textDecoration: "none"
+    textDecoration: "none",
+	marginTop: "-25px"
   },
   subtitle: {
     fontSize: "1.313rem",

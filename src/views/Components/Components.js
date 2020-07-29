@@ -55,7 +55,7 @@ export default function Components(props) {
                 <h1 className={classes.title}><img src={image1} width="250px" height="175.6px" /></h1>
 				<h1 className={classes.title}>The Decentralized Protocol For Interest-Rate Derivatives</h1>
 				<h4 className={classes.subtitle}>
-					{"Coming Q3 2020"}
+					Coming Q3 2020
                 </h4>
             </GridItem>
           </GridContainer>
