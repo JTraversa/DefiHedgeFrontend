@@ -7,11 +7,12 @@ const componentsStyle = {
     textAlign: "left"
   },
   title: {
-	...title,
+	fontFamily: `"Roboto Slab", "Times New Roman", serif`,
     display: "inline-block",
     position: "relative",
 	transform: "translate(0px, -25%)",
 	minHeight: "32px",
+	fontSize: "32px"
     color: "#FFFFFF",
     textDecoration: "none"
   },
