@@ -10,7 +10,10 @@ const componentsStyle = {
 	...title,
     display: "inline-block",
     position: "relative",
-	transform: "translate(0px, -25%)"
+	transform: "translate(0px, -25%)",
+	minHeight: "32px",
+    color: "#FFFFFF",
+    textDecoration: "none"
   },
   subtitle: {
     fontSize: "1.313rem",
