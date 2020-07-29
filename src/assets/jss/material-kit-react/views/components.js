@@ -4,7 +4,7 @@ const componentsStyle = {
   container,
   imgcontainer: {
 	  transform: "translate(0px,-100px)",
-	  marginBottom: "-70px"
+	  marginBottom: "-90px"
   },
   brand: {
     color: "#FFFFFF",
