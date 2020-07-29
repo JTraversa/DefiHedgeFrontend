@@ -10,9 +10,9 @@ const componentsStyle = {
 	fontFamily: `"Roboto Slab", "Times New Roman", serif`,
     display: "inline-block",
     position: "relative",
-	transform: "translate(0px, -25%)",
+	transform: "translate(-10%, -25%)",
 	minHeight: "32px",
-	fontSize: "42px",
+	fontSize: "32px",
     color: "#FFFFFF",
     textDecoration: "none",
 	marginTop: "-25px"
@@ -21,6 +21,7 @@ const componentsStyle = {
     fontSize: "1.313rem",
     maxWidth: "1000px",
     margin: "0px 0 0",
+	color: "#FFFFFF",
 	transform: "translate(0px, -25%)"
   },
   main: {
