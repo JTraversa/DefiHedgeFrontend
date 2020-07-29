@@ -55,9 +55,6 @@ export default function Components(props) {
               <div className={classes.brand}>
                 <h1 className={classes.title}><img src={image1} width="250px" height="175.6px" /></h1>
 				<h1 className={classes.title}>The Decentralized Protocol For Interest-Rate Derivatives</h1>
-                <h3 className={classes.subtitle}>
-					{"The decentralized protocol for fixed-rate lending & interest-rate derivatives"}
-                </h3>
 				<h4 className={classes.subtitle}>
 					{"Coming Q3 2020"}
                 </h4>
