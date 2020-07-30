@@ -3,7 +3,7 @@ import { container, title } from "assets/jss/material-kit-react.js";
 const componentsStyle = {
   container,
   imgcontainer: {
-	  transform: "translate(0px,-100px)",
+	  transform: "translate(0px,-115px)",
 	  marginBottom: "-90px"
   },
   brand: {
