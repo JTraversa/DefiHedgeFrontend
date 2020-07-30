@@ -53,7 +53,7 @@ export default function Components(props) {
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
                 <h1 className={classes.title}><img src={image1} className={classes.imgcontainer} width="312.5px" height="219.5px" /></h1>
-				<h1 className={classes.title}>The Decentralized Protocol For Interest-Rate Derivatives</h1>
+				<h1 className={classes.title}>The Decentralized Protocol For Fixed-Rate Lending & Interest-Rate Derivatives</h1>
 				<h4 className={classes.subtitle}>
 					Coming Q4 2020
                 </h4>
