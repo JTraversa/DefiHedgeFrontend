@@ -37,14 +37,15 @@ export default function HeaderLinks(props) {
           buttonIcon={Apps}
           dropdownList={[
             <Link to="/" className={classes.dropdownLink}>
-              ETH1MONTH
+              Mainnet (Q4)
             </Link>,
-            <Link to="/" className={classes.dropdownLink}>
-              DAI1MONTH
-            </Link>,
-			<Link to="/" className={classes.dropdownLink}>
-              USDC1MONTH
-            </Link>
+			<a
+              href="https://defi-hedge-protocol.vercel.app/"
+              target="_blank"
+              className={classes.dropdownLink}
+            >
+			Ropsten PoC
+			</a>
           ]}
         />
       </ListItem>
