@@ -37,7 +37,7 @@ export default function HeaderLinks(props) {
           buttonIcon={Apps}
           dropdownList={[
             <Link to="/" className={classes.dropdownLink}>
-              Mainnet (Q4 2020)
+              Mainnet DEX (Q4 2020)
             </Link>,
 			<a
               href="https://defi-hedge-protocol.vercel.app/"
