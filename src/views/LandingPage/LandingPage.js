@@ -55,7 +55,7 @@ export default function LandingPage(props) {
               <Button
                 color="danger"
                 size="lg"
-                href="https://www.youtube.com/watch?v=iCKwBL27MW8"
+                href="https://www.youtube.com/watch?v=Q_Pp1JQURu0&t"
                 target="_blank"
                 rel="noopener noreferrer"
               >
