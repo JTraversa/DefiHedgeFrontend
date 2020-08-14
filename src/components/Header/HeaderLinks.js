@@ -18,6 +18,7 @@ import { Apps, CloudDownload } from "@material-ui/icons";
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
 import Button from "components/CustomButtons/Button.js";
 import WhitepaperPDF from "assets/pdf/DefiHedge_Whitepaper.pdf";
+import DefiHedgeDeck from "assets/pdf/DefiHedge.ppt"
 import styles from "assets/jss/material-kit-react/components/headerLinksStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -76,7 +77,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          a href= {WhitepaperPDF}
+          a href= {DefiHedgeDeck}
           color="transparent"
           target="_blank"
           className={classes.navLink}
