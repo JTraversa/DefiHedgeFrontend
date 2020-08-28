@@ -17,7 +17,7 @@ import { Apps, CloudDownload } from "@material-ui/icons";
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
 import Button from "components/CustomButtons/Button.js";
-import WhitepaperPDF from "assets/pdf/DefiHedge.pdf";
+import WhitepaperPDF from "assets/pdf/DefiHedge_Whitepaper.pdf";
 import DefiHedgeDeck from "assets/pdf/DefiHedge.pdf"
 import styles from "assets/jss/material-kit-react/components/headerLinksStyle.js";
 
