@@ -19,6 +19,7 @@ import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
 import Button from "components/CustomButtons/Button.js";
 import WhitepaperPDF from "assets/pdf/DefiHedge_Whitepaper.pdf";
 import DefiHedgeDeck from "assets/pdf/DefiHedge.pdf"
+import WhitepaperPDF2 from "assets/pdf/DefiHedge-Whitepaper-v0.2.0.pdf";
 import styles from "assets/jss/material-kit-react/components/headerLinksStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -77,7 +78,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          a href= {WhitepaperPDF}
+          a href= {WhitepaperPDF2}
           color="transparent"
           target="_blank"
           className={classes.navLink}
