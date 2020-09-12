@@ -72,7 +72,7 @@ export default function SectionTypography() {
                   classes.imgFluid
 				  }
               />
-			  <div className={classes.comment}>Lend With Collateralized Contracts That Gauruntee No Default Risk</div>
+			  <div className={classes.comment}>Lend With Collateralized Contracts That Guarantee No Default Risk</div>
             </GridItem>
             <GridItem xs={12} sm={2} className={classes.marginLeft}>
               <img
