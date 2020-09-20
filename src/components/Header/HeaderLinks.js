@@ -80,7 +80,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          a href= {WhitepaperPDF2}
+          a href= {DefiHedgeDeck3}
           color="transparent"
           target="_blank"
           className={classes.navLink}
