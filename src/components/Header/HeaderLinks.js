@@ -22,6 +22,7 @@ import DefiHedgeDeck from "assets/pdf/DefiHedge.pdf"
 import DefiHedgeDeck2 from "assets/pdf/DefiHedge--Deck.pdf"
 import DefiHedgeDeck3 from "assets/pdf/DefiHedge--Deck--2.pdf"
 import DefiHedgeDeck4 from "assets/pdf/DefiHedge-Deck.pdf"
+import DefiHedgeDeck5 from "assets/pdf/DefiHedge--Deck--3.pdf"
 import WhitepaperPDF2 from "assets/pdf/DefiHedge-Whitepaper-v0.2.0.pdf";
 import styles from "assets/jss/material-kit-react/components/headerLinksStyle.js";
 
@@ -81,7 +82,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          a href= {WhitepaperPDF2}
+          a href= {DefiHedgeDeck5}
           color="transparent"
           target="_blank"
           className={classes.navLink}
