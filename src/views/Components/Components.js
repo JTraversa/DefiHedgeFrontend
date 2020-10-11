@@ -29,7 +29,7 @@ import SectionExamples from "./Sections/SectionExamples.js";
 import SectionDownload from "./Sections/SectionDownload.js";
 
 import styles from "assets/jss/material-kit-react/views/components.js";
-import image1 from "assets/img/defi.png";
+import image1 from "assets/img/Light-Defi.svg";
 const useStyles = makeStyles(styles);
 
 export default function Components(props) {
