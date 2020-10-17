@@ -99,7 +99,7 @@ const NavLink2 = tw(NavLinkBase)`mr-12 lg:text-green-900 lg:hocus:text-green-300
 const LogoLink = tw(LogoLinkBase)`text-green-100 hocus:text-green-300`;
 const PrimaryLink = tw(PrimaryLinkBase)`shadow-raised lg:bg-primary-400 lg:hocus:bg-primary-500`;
 const PrimaryLink2 = tw(PrimaryLinkBase)`h-12 m-12 shadow-raised lg:bg-primary-400 lg:hocus:bg-primary-500`;
-const SecondaryLink = tw(PrimaryLinkBase)`h-12 py-3 mt-6 sm:mt-12 sm:ml-8 bg-gray-300 text-gray-800 hocus:bg-gray-400 hocus:text-gray-900`;
+const SecondaryLink = tw(PrimaryLinkBase)`h-12  sm:mt-12 sm:ml-8 bg-gray-300 text-gray-800 hocus:bg-gray-400 hocus:text-gray-900`;
 
 export default ({
   features = null,
