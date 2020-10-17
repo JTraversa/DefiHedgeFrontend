@@ -8,7 +8,8 @@ import HeaderBase, {
   LogoLink as LogoLinkBase,
   NavLinks,
   NavLink as NavLinkBase,
-  PrimaryLink as PrimaryLinkBase
+  PrimaryLink as PrimaryLinkBase,
+  PrimaryLink2 as PrimaryLinkBase2,
 } from "components/headers/light.js";
 
 import { components } from "ComponentRenderer.js";
@@ -92,14 +93,15 @@ const ResizableBox = styled(Rnd)`
     ${tw`w-4! right-0!`}
   }
 `;
+
 const ResizeHandleButton = tw.button`cursor-col-resize focus:outline-none w-4 border-l bg-gray-100 absolute right-0 inset-y-0`;
 const Header = tw(HeaderBase)`max-w-none -mt-8 py-8 -mx-8 px-8`;
 const NavLink = tw(NavLinkBase)`lg:text-green-900 lg:hocus:text-green-300 lg:hocus:border-green-100`;
 const NavLink2 = tw(NavLinkBase)`mr-12 lg:text-green-900 lg:hocus:text-green-300 lg:hocus:border-green-100`;
 const LogoLink = tw(LogoLinkBase)`text-green-100 hocus:text-green-300`;
 const PrimaryLink = tw(PrimaryLinkBase)`shadow-raised lg:bg-primary-400 lg:hocus:bg-primary-500`;
-const PrimaryLink2 = tw(PrimaryLinkBase)`h-12 mt-12 text-center shadow-raised lg:bg-primary-400 lg:hocus:bg-primary-500`;
-const SecondaryLink = tw(PrimaryLinkBase)`h-12 ml-16 text-center bg-gray-300 text-gray-800 hocus:bg-gray-400 hocus:text-gray-900`;
+const PrimaryLink2 = tw(PrimaryLinkBase2)`h-12 text-center shadow-raised lg:bg-primary-400 lg:hocus:bg-primary-500`;
+const SecondaryLink = tw(PrimaryLinkBase2)`h-12 ml-16 text-center bg-gray-300 text-gray-800 hocus:bg-gray-400 hocus:text-gray-900`;
 
 export default ({
   features = null,
