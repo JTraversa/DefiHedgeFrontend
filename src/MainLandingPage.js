@@ -132,7 +132,7 @@ const logoLink = (
     <NavLinks key={1}>
       <NavLink href="#HowItWorksSection">How It Works</NavLink>
       <NavLink href="#TeamSection">Team</NavLink>
-	  <NavLink2 href="#" target="_blank">Jobs</NavLink2>
+	  <NavLink2 href="https://angel.co/company/defihedge/jobs" target="_blank">Jobs</NavLink2>
       <PrimaryLink href={WhitepaperPDF} target="_blank" >Whitepaper</PrimaryLink>
     </NavLinks>
   ];

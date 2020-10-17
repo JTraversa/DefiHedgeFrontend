@@ -119,8 +119,8 @@ export default ({
 		  <Subheading2>Were Hiring!
 		  </Subheading2>
 		  <Heading2> <a href="https://angel.co/company/defihedge/jobs/1022041-full-stack-software-engineer" target="_blank">Full-Stack Developer </a></Heading2>
-		  <Heading2> <a href="https://defihedge.finance" target="_blank">Solidity/Protocol Developer </a></Heading2>
-		  <Heading2> <a href="https://defihedge.finance" target="_blank">Front-end Developer </a></Heading2>
+		  <Heading2> <a href="https://angel.co/company/defihedge/jobs/1023593-solidity-protocol-developer" target="_blank">Solidity/Protocol Developer </a></Heading2>
+		  <Heading2> <a href="https://angel.co/company/defihedge/jobs/1023574-front-end-software-engineer" target="_blank">Front-end Developer </a></Heading2>
 		  <Description2>
 		  If you are interested  in a role but don't quite fit these specific positions, feel free to reach out!
 		  </Description2>
