@@ -8,9 +8,13 @@
     "@testing-library/user-event": "^7.1.2",
     "feather-icons": "^4.26.0",
     "framer-motion": "^1.10.2",
-    "react": "^16.14.0",
+    "react": "^16.13.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
+<<<<<<< HEAD
     "react-dom": "^16.14.0",
+=======
+    "react-dom": "^16.13.1",
+>>>>>>> parent of 0c6f304... Swivel
     "react-modal": "^3.11.2",
     "react-rnd": "^10.1.9",
     "react-router-dom": "^5.1.2",
@@ -18,7 +22,11 @@
     "react-slick": "^0.25.2",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.0.1",
+<<<<<<< HEAD
     "tailwindcss": "^1.9.4",
+=======
+    "tailwindcss": "^1.2.0",
+>>>>>>> parent of 0c6f304... Swivel
     "twin.macro": "^1.0.0-alpha.7",
     "use-in-view": "^1.0.15"
   },
