@@ -9,12 +9,11 @@ import { ReactComponent as TwitterIcon} from "images/twitter-icon.svg";
 import { ReactComponent as LinkedinIcon} from "images/linkedin-icon.svg";
 import { ReactComponent as GithubIcon } from "images/github-icon.svg";
 import TraversaCard from "images/Traversa.svg"
-import multicoin from "images/multicoin.png"
 
 
 const HeadingContainer = tw.div`-mb-12`
-const Heading = tw(SectionHeading)`text-primary-700`
-const Heading2 = tw(SectionHeading2)`m-2 align-middle hocus:text-primary-600`
+const Heading = tw(SectionHeading)``
+const Heading2 = tw(SectionHeading2)`m-2 align-middle`
 const Subheading = tw(SubheadingBase)`text-center mb-3`
 const Subheading2 = tw(SubheadingBase)`mt-8 text-center mb-3`
 const Description = tw(SectionDescription)`mx-auto text-center`
@@ -39,7 +38,7 @@ const CardContent = styled.div`
 const CardLinks = styled.div`
   ${tw`mt-6 flex`}
   .link {
-    ${tw`mr-8 last:mr-0 text-gray-600 hocus:text-primary-600 transition duration-300`}
+    ${tw`mr-8 last:mr-0 text-gray-400 hocus:text-primary-500 transition duration-300`}
     .icon {
       ${tw`fill-current w-6 h-6`}
     }
@@ -47,15 +46,14 @@ const CardLinks = styled.div`
 `
 
 export default ({
-  heading = "Our Team:",
-  subheading = "Introducing the talent",
+  heading = "Our Team",
+  subheading = "Meet These Fine Folks.",
   description = "",
   cards = [
     {
       imageSrc: "https://images.unsplash.com/photo-1602720412890-7a856a113b65?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80",
       position: "Founder/CEO",
       name: "Julian Traversa",
-	  meta: "Julian Traversa",
       links: [
         {
           url: "https://twitter.com/TraversaJulian",
@@ -73,9 +71,8 @@ export default ({
     },
     {
       imageSrc: "https://i.imgur.com/OoZzb1J.jpg",
-      position: "Co-Founder",
+      position: "Contributor",
       name: "William Hsieh",
-	  meta: "William Hsieh",
       links: [
         {
           url: "https://twitter.com/willchsieh",
@@ -104,7 +101,7 @@ export default ({
         <Cards>
           {cards.map((card, index) => (
             <Card key={index}>
-              <CardImage imageSrc={card.imageSrc} meta={card.meta}/>
+              <CardImage imageSrc={card.imageSrc} />
               <CardContent>
                 <span className="position">{card.position}</span>
                 <span className="name">{card.name}</span>

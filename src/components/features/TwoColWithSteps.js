@@ -3,7 +3,7 @@ import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
-import HowItWorks from "images/HowItWorks.png";
+import HowItWorks from "images/HowItWorks.gif";
 import { ReactComponent as SvgDotPattern } from "images/dot-pattern.svg";
 
 const Container = tw.div`relative`;
@@ -34,16 +34,16 @@ const Heading = tw(
 
 const Steps = tw.ul`mt-12`;
 const Step = tw.li`mt-8 flex flex-col md:flex-row items-center md:items-start`;
-const StepNumber = tw.div`font-semibold text-4xl leading-none text-gray-600`;
+const StepNumber = tw.div`font-semibold text-4xl leading-none text-gray-400`;
 const StepText = tw.div`mt-3 md:mt-0 md:ml-6`;
-const StepHeading = tw.h6`leading-none text-xl font-semibold text-gray-900`;
-const StepDescription = tw.p`mt-3 max-w-xs leading-loose text-sm text-gray-700 font-medium`;
+const StepHeading = tw.h6`leading-none text-xl font-semibold`;
+const StepDescription = tw.p`mt-3 max-w-xs leading-loose text-sm text-gray-600 font-medium`;
 
 export default ({
   subheading = "Breaking Down",
   heading = (
     <>
-      How <span tw="text-green-600">Swivel</span>  Works.
+      How DefiHedge <span tw="text-primary-500"> Works.</span>
     </>
   ),
   imageSrc = HowItWorks,
@@ -60,15 +60,15 @@ export default ({
   const defaultSteps = [
     {
       heading: "Submit Your Order",
-      description: "Submit an order at your desired rate, or place a market order to originate a lending agreement with a counterparty instantly at market rate."
+      description: "Submit an order at your desired rate, or place a market order to originate an agreement with a counterparty instantly."
     },
     {
       heading: "Earn Interest",
-      description: "Earn guarunteed fixed interest on your principal, or leveraged interest on the market rate on protocols like Compound and Aave."
+      description: "Earn fixed interest on your principal, or leveraged interest on floating rates on protocols like Compound and Aave."
     },
     {
       heading: "Release Your Funds",
-      description: "Once an agreement's term is complete, release your funds! The fixed-side lender is paid their guarunteed yield, while the floating-side is paid the remaining interest."
+      description: "Once an agreement's term is complete, release your funds! The fixed-side lender is paid their fixed yield, while the floating-side is paid the remaining interest."
     }
   ];
 
