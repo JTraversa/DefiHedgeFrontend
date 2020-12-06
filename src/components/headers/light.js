@@ -11,8 +11,8 @@ import { ReactComponent as MenuIcon } from "feather-icons/dist/icons/menu.svg";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
 
 const Header = tw.header`
-  flex justify-between items-center
-  max-w-screen-xl mx-auto
+  flex 
+  max-w-screen-xl 
 `;
 
 export const NavLinks = tw.div`inline-block`;
@@ -33,23 +33,22 @@ export const NavLink2 = tw.a`
 `;
 
 export const PrimaryLink2 = tw(NavLink2)`
-  px-8 py-3 rounded bg-primary-500 text-gray-100
+ rounded bg-primary-500 text-gray-100
   hocus:bg-primary-700 hocus:text-gray-200 focus:shadow-outline
   border-b-0
 `;
 
 export const PrimaryLink = tw(NavLink)`
   lg:mx-0
-  px-8 py-3 rounded bg-primary-500 text-gray-100
-  hocus:bg-primary-700 hocus:text-gray-200 focus:shadow-outline
+  px-12 py-3 rounded bg-primary-500 text-gray-100
   border-b-0
 `;
 
 export const LogoLink = styled(NavLink)`
-  ${tw`flex items-center font-black border-b-0 text-2xl! ml-0!`};
+  ${tw`left-0 font-black border-b-0 text-2xl!`};
 
   img {
-    ${tw`w-48 mr-3`}
+    ${tw``}
   }
 `;
 
@@ -91,7 +90,6 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
       <NavLink href="/#" tw="lg:ml-12!">
         Login
       </NavLink>
-      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/#">Sign Up</PrimaryLink>
     </NavLinks>
   ];
 
@@ -101,7 +99,6 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   const defaultLogoLink = (
     <LogoLink href="/">
       <img src={logo} alt="logo" />
-      Treact
     </LogoLink>
   );
 

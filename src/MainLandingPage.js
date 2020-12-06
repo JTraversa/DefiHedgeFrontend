@@ -14,7 +14,7 @@ import HeaderBase, {
 
 import { components } from "ComponentRenderer.js";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
-import { Container, Content2Xl, ContentWithVerticalPadding, ContentWithVerticalPadding2 } from "components/misc/Layouts";
+import { Container, Content2Xl, ContentWithVerticalPadding, ContentWithVerticalPadding2, ContentWithVerticalPadding3 } from "components/misc/Layouts";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro";
@@ -27,27 +27,28 @@ import { ReactComponent as HandleIcon } from "images/handle-icon.svg";
 import { ReactComponent as ArrowRightIcon} from "images/arrow-right-3-icon.svg";
 import WhitepaperPDF from "pdf/DefiHedge-Whitepaper-v0.2.0.pdf"
 
-import exchange from "images/demo/exchange.png";
-import logo from "images/logo.svg";
+import exchange from "images/exchange.png";
+import logo from "images/logo.png";
 import useInView from "use-in-view";
 import FAQ from "components/faqs/SingleCol.js";
 import HowItWorks from "components/features/TwoColWithSteps.js";
 import Footer from "components/footers/SimpleFiveColumn.js";
 import Team from "components/cards/ProfileThreeColGrid.js";
+import Investors from "components/cards/Investors.js";
 import About from "components/testimonials/TwoColumnWithImage.js";
 
 /* Hero */
 const Row = tw.div`flex`;
 const NavRow = tw(Row)`flex flex-col sm:flex-row items-center justify-between`;
 const DownloadLink = tw.a`mt-8 sm:mt-0 transition duration-300 font-medium pb-1 border-b-2 text-primary-500 border-purple-300 hocus:border-primary-500`;
-const HeroRow = tw(Row)`flex-col lg:flex-row justify-between items-center py-20 lg:py-24 max-w-screen-2xl mx-auto`;
+const HeroRow = tw(Row)`-mt-8 flex-col lg:flex-row justify-between items-center py-20 lg:py-24 max-w-screen-2xl mx-auto`;
 
 const Column = tw.div``;
 const TextColumn = tw(Column)`mx-auto lg:mr-0 max-w-2xl lg:max-w-xl xl:max-w-2xl flex-shrink-0`;
-const Heading = tw(HeadingBase)`text-center lg:text-left text-primary-900 leading-snug`;
+const Heading = tw(HeadingBase)`text-center lg:text-left text-primary-600 leading-snug`;
 const Description = tw(
   DescriptionBase
-)`mt-4 text-center lg:text-left lg:text-base text-gray-700 max-w-lg mx-auto lg:mx-0`;
+)`mt-4 text-center lg:text-left lg:text-base text-gray-900 max-w-lg mx-auto lg:mx-0`;
 const Actions = tw.div`flex flex-col sm:flex-row justify-center lg:justify-start`;
 const ActionButton = tw(
   AnchorLink
@@ -59,13 +60,14 @@ const SecondaryButton = tw(
 const FeatureList = tw.ul`mt-6 leading-loose flex flex-wrap max-w-xl mx-auto lg:mx-0`;
 const Feature = tw.li`mt-2 flex items-center flex-shrink-0 w-full sm:w-1/2 justify-center lg:justify-start`;
 const FeatureIcon = tw(CheckboxIcon)`w-5 h-5 text-primary-500`;
-const FeatureText = tw.p`ml-2 font-medium text-gray-700`;
+const FeatureText = tw.p`ml-2 font-medium text-gray-800`;
 const ImageColumn = tw(Column)`mx-auto lg:mr-0 relative mt-16 lg:mt-0 lg:ml-8`;
 const ImageContainer = tw.div``;
 const Image = tw.img`max-w-full rounded-t sm:rounded shadow-2xl`;
 
 const SectionContainer = tw(ContentWithVerticalPadding)``;
 const SectionContainer2 = tw(ContentWithVerticalPadding2)``;
+const SectionContainer3 = tw(ContentWithVerticalPadding3)``;
 const SectionHeading = tw(HeadingBase)`text-primary-900`;
 const SectionDescription = tw(DescriptionBase)`text-center mx-auto text-gray-600 max-w-4xl`;
 
@@ -95,13 +97,13 @@ const ResizableBox = styled(Rnd)`
 `;
 
 const ResizeHandleButton = tw.button`cursor-col-resize focus:outline-none w-4 border-l bg-gray-100 absolute right-0 inset-y-0`;
-const Header = tw(HeaderBase)`max-w-none -mt-8 py-8 -mx-8 px-8`;
-const NavLink = tw(NavLinkBase)`lg:text-green-900 lg:hocus:text-green-300 lg:hocus:border-green-100`;
-const NavLink2 = tw(NavLinkBase)`mr-24 lg:text-green-900 lg:hocus:text-green-300 lg:hocus:border-green-100`;
+const Header = tw(HeaderBase)`max-w-none mb-12 py-8 -mx-8 px-8`;
+const NavLink = tw(NavLinkBase)`lg:text-green-900 lg:hocus:text-green-600 lg:hocus:border-green-100`;
+const NavLink2 = tw(NavLinkBase)`mr-12 lg:text-green-900 lg:hocus:text-green-600 lg:hocus:border-green-100`;
 const LogoLink = tw(LogoLinkBase)`text-green-100 hocus:text-green-300`;
-const PrimaryLink = tw(PrimaryLinkBase)`shadow-raised lg:bg-primary-400 lg:hocus:bg-primary-500`;
-const PrimaryLink2 = tw(PrimaryLinkBase2)`h-12 m-6 text-center shadow-raised lg:bg-primary-400 lg:hocus:bg-primary-500`;
-const SecondaryLink = tw(PrimaryLinkBase2)`h-12 m-6 text-center bg-gray-300 text-gray-800 hocus:bg-gray-400 hocus:text-gray-900`;
+const PrimaryLink = tw(PrimaryLinkBase)`shadow-raised from-blue-600 to-green-500 bg-gradient-to-r hocus:from-pink-600 hocus:text-white`;
+const PrimaryLink2 = tw(PrimaryLinkBase2)`transition duration-500 ease-in-out transform hover:scale-105 h-12 w-48 m-6 py-4 px-6 text-center shadow-raised from-green-500 to-blue-600 bg-gradient-to-r  hocus:to-pink-600`;
+const SecondaryLink = tw(PrimaryLinkBase2)`transition duration-500 ease-in-out transform hover:scale-105 h-12 m-6 w-48  py-4 px-6 text-center bg-gray-400 text-gray-800 hocus:bg-gray-500 hocus:text-gray-900`;
 
 export default ({
   features = null,
@@ -123,13 +125,14 @@ export default ({
       transition: { type: "tween", ease: "linear", duration: 5 }
     }
   };
-  const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-500`;
-  const HighlightedText = tw.span`text-primary-500`;
+  const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-600`;
+  const HighlightedText = tw.span`text-primary-600`;
 const logoLink = (
     <LogoLink href="/">
-      <img src={logo} alt="Logo" />
+      <img src={logo} alt="Logo" width="400px"/>
     </LogoLink>
   );
+ 
   const navLinks = [
     <NavLinks key={1}>
       <NavLink href="#HowItWorksSection">How It Works</NavLink>
@@ -145,20 +148,20 @@ const logoLink = (
   features = features || [
     `${0} Counterparty Risk`,
     `${0} Transaction Overhead`,
-    "Unparallelled Leverage",
-    "Secure & Minimalistic Design",
+    "Unparalleled Leverage",
+    "Secure & Minimalistic",
   ];
 
   return (
-      <Container tw="bg-gray-100 -mx-8 -mt-8 pt-8 px-8">
+      <Container tw="bg-gradient-to-br from-white via-blue-200 to-green-200 -mx-8 -mt-8 pt-8 px-8">
         <Content2Xl>
 		<AnimationRevealPage>
-          <Header logoLink={logoLink} links={navLinks} />
+          <Header logoLink={logoLink} logolink="" links={navLinks}/>
           <HeroRow>
             <TextColumn>
               <Heading>The Protocol For Interest-Rate Derivatives </Heading>
               <Description>
-                As the first and most efficient protocol for trustless interest-rate swaps, DefiHedge provides lenders the ability to lend at fixed-rates or maximize yields with leveraged lending positions.
+                As the most efficient protocol for trustless interest-rate swaps, Swivel v1 provides lenders the ability to lend at fixed-rates or maximize yields with leveraged lending positions.
               </Description>
               <FeatureList>
                 {features.map((feature, index) => (
@@ -183,10 +186,12 @@ const logoLink = (
               </ImageContainer>
             </ImageColumn>
           </HeroRow>
+		  
 		  <SectionContainer2 id="HowItWorksSection">
 		  <HowItWorks>
 		  </HowItWorks>
 		  </SectionContainer2>
+		  
 		  <SectionContainer2 id="faqSection">
 			<FAQ
 			subheading={<Subheading>FAQS</Subheading>}
@@ -209,7 +214,7 @@ const logoLink = (
 			  {
 				question: "How are rates determined?",
 				answer:
-				  "The current fixed-rate is set by a marketplace of opposing lenders on taking fixed and floating positions. The fixed-side wants the highest rate possible, similar to a traditional asset seller, while the floating-side wants to give the lowest rate possible similar to a buyer."
+				  "The current rate is set by a marketplace of lenders taking on fixed and floating positions. The fixed-side lenders have incentive to lend at the highest rate possible, similar to a traditional seller, while floating-side lenders have incentive to back the lowest rates possible, similar to a buyer."
 			  },
 			  {
 				question: "How do you provide 0 counterparty risk?",
@@ -219,20 +224,27 @@ const logoLink = (
 			  {
 				question: "How much interest-rate leverage do you offer?",
 				answer:
-				  "Our design offers variable leverage dependent on an agreement's fixed-rate. For example, Bob offers a 1% fixed-rate for 1 yr, Bob is backing $1 for every $100 in exposure, therefore 100x leverage. Alternatively should Bob offer 5% he would need to back $5 per $100, receiving 20x."
+				  "Swivel offers variable leverage dependent on the current market rate. For example, if Bob backs a 1% fixed-rate for 1 yr, Bob commits $1 for every $100 in exposure, therefore 100x leverage. Alternatively should Bob back a 5% rate he would need to commit $5 per $100, effectively 20x."
 			  },
 			  {
 				question: "What are the contract risks?",
 				answer:
-				  "Given our design utilizes lending protocols such as Aave or Compound, the risk profile of our product is dependent upon the mechanism risk within these protocols. DefiHedge's trading infrastructure itself bears little added risk."
+				  "Given our design utilizes lending protocols such as Aave or Compound, the risk profile of our product is dependent upon the mechanism risk within these protocols. Swivel's trading and timelock infrastructure itself bears little added risk."
 			  }
 			]}
 			/>
 		  </SectionContainer2>
-		  <SectionContainer2 id="TeamSection">
+		  
+		  <SectionContainer2 id="InvestorSection">
+		  <Investors>
+		  </Investors>
+		  </SectionContainer2>
+		  
+		  <SectionContainer3 id="TeamSection">
 		  <Team>
 		  </Team>
-		  </SectionContainer2>
+		  </SectionContainer3>
+		  
 		  <Footer />
 		  </AnimationRevealPage>
         </Content2Xl>
