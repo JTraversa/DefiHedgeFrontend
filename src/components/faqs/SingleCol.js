@@ -10,9 +10,9 @@ import { ReactComponent as ChevronDownIcon } from "feather-icons/dist/icons/chev
 import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-7.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "images/svg-decorator-blob-8.svg";
 
-const Subheading = tw(SubheadingBase)`mb-4 text-center text-gray-900`;
+const Subheading = tw(SubheadingBase)`mb-4 text-center`;
 const Heading = tw(SectionHeading)`w-full`;
-const Description = tw(SectionDescription)`w-full text-center text-gray-800`;
+const Description = tw(SectionDescription)`w-full text-center`;
 
 const Column = tw.div`flex flex-col items-center`;
 const HeaderContent = tw.div``;
