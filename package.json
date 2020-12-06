@@ -8,20 +8,32 @@
     "@testing-library/user-event": "^7.1.2",
     "feather-icons": "^4.26.0",
     "framer-motion": "^1.10.2",
-    "react": "^16.14.0",
+    "react": "^16.13.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
+<<<<<<< HEAD
     "react-dom": "^16.14.0",
     "react-modal": "^3.12.1",
     "react-rnd": "^10.2.4",
+=======
+    "react-dom": "^16.13.1",
+    "react-modal": "^3.11.2",
+    "react-rnd": "^10.1.9",
+>>>>>>> parent of c6d8560... dependency updates
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "react-slick": "^0.25.2",
     "slick-carousel": "^1.8.1",
+<<<<<<< HEAD
     "styled-components": "^5.2.1",
     "tailwind-easing-gradients": "^1.0.2",
     "tailwindcss": "^2.0.1",
     "tailwindcss-gradients": "^3.0.0",
     "twin.macro": "^1.12.1",
+=======
+    "styled-components": "^5.0.1",
+    "tailwindcss": "^1.2.0",
+    "twin.macro": "^1.0.0-alpha.7",
+>>>>>>> parent of c6d8560... dependency updates
     "use-in-view": "^1.0.15"
   },
   "scripts": {
